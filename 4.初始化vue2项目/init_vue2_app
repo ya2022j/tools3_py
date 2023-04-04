@@ -12,7 +12,8 @@ npm install file-loader -D
 npm install element-ui --save
 
 npm install axios 
-npm install vue-router
+
+yarn add vue-router@3.1.3
 
 
 yarn serve

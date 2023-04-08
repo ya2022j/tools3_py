@@ -89,5 +89,8 @@ if __name__== "__main__":
 
 
 
+#  SELECT DISTINCT  line,firm,count(station) as "station_count" FROM `jp_lines`.`jp_line_station_all`  where area="東京" group by  line order by station_count desc ;
+
+
 
 

@@ -6901,7 +6901,56 @@ def for_count_and_read(countfile,readfile,text):
 
 
 
+def writeinto_htmlfile(filename, data):
+    with open(filename, "a", newline="", encoding="utf-8") as f:
+        f.write(data)
+        f.write("\n")
 
+html_head = """
+<html>
+
+<head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+            <style type="text/css">
+                        .todo[data-v-ee48fd14] {
+                                    margin: 8px auto;
+                                    padding: 12px 8px;
+                                    text-align: left;
+                                    -webkit-box-shadow: 0px 0px 2px #847070;
+                                    box-shadow: 0px 0px 2px #847070;
+                                    border-radius: 4px;
+                                    display: -webkit-box;
+                                    display: -ms-flexbox;
+                                    display: flex;
+                                    font-size: medium;
+                                    width: 888px;
+                                    -webkit-box-align: center;
+                                    color: #495057;
+                                    -ms-flex-align: center;
+                                    align-items: center;
+                                    background-color: #ffff;
+                        }
+
+                        body {
+                                    background-color: #94d3a2;
+                        }
+            </style>
+</head>
+
+<body>
+
+            <div data-v-fae5bece="">
+"""
+html_body = '<div data-v-ee48fd14="" data-v-fae5bece="" class="todo">{0}</div>'
+html_footer = """
+            </div>
+</body>
+
+</html>
+"""
 if __name__ == "__main__":
     infoID= 0
     b = BS4Parse(html_doc)
@@ -6909,4 +6958,8 @@ if __name__ == "__main__":
     for item in ret:
         infoID += 1
         f_text = str(infoID) + ". " + item
-        for_count_and_read("count.tsv", "read.tsv", f_text)
+        writeinto_htmlfile("test.html",html_head)
+        writeinto_htmlfile("test.html",html_body.format(f_text))
+        writeinto_htmlfile("test.html",html_footer)
+
+        # for_count_and_read("count.tsv", "read.tsv", f_text)

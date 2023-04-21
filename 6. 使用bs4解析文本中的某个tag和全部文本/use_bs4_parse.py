@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 html_doc = """
 
 
+
 <!DOCTYPE html>
 <html lang="ja">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
@@ -26,15 +27,15 @@ html_doc = """
 <link rel="dns-prefetch" href="//www.google.com">
 <link rel="dns-prefetch" href="//stats.g.doubleclick.net">
 <link rel="icon" href="/favicon.ico?01">
-<title>すべての求人情報 - 社員クチコミならOpenWork</title>
+<title>求人情報 - 社員クチコミならOpenWork</title>
 <meta name="keywords" content="求人, 求人情報, 求人検索, 就職, 転職, 採用, クチコミ">
-<meta name="description" content="すべての求人情報です。OpenWorkの求人検索は、国内最大級の社員クチコミと合わせて求人情報を検索できます。">
-<meta property="og:description" content="すべての求人情報です。OpenWorkの求人検索は、国内最大級の社員クチコミと合わせて求人情報を検索できます。">
+<meta name="description" content="求人情報です。OpenWorkの求人検索は、国内最大級の社員クチコミと合わせて求人情報を検索できます。">
+<meta property="og:description" content="求人情報です。OpenWorkの求人検索は、国内最大級の社員クチコミと合わせて求人情報を検索できます。">
 <meta property="og:locale" content="ja_JP">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="OpenWork">
-<meta property="og:title" content="すべての求人情報 - 社員クチコミならOpenWork">
-<meta property="og:url" content="https://www.vorkers.com/job_search_result?u=std">
+<meta property="og:title" content="求人情報 - 社員クチコミならOpenWork">
+<meta property="og:url" content="https://www.vorkers.com/job_search_result?n=&amp;o=&amp;z=&amp;p=&amp;remoteWork=&amp;k=Golang&amp;kt=&amp;mids=&amp;y=&amp;totalS=&amp;x=&amp;w=&amp;i=&amp;f=&amp;u=std&amp;ct=jresult">
 <meta property="article:author" content="https://www.facebook.com/OpenWork.sns/">
 <meta property="og:image" content="https://assets.vorkers.com/images/common/ogp.png?02">
 <meta name="twitter:card" content="summary"/>
@@ -44,8 +45,9 @@ html_doc = """
     <link rel="stylesheet" href="https://assets.vorkers.com/assets/css_common_pc.467ebc8e.css" media="all">
 
 
+            <meta name="robots" content="noindex">
         <link rel="canonical" href="https://www.vorkers.com/job_search_result?u=std">
-                    <link rel="next" href="/job_search_result?u=std&amp;page=2">
+                    <link rel="next" href="/job_search_result?kt=Golang&amp;u=std&amp;page=2">
     
 <!--[if lt IE 9]>
 <script>for(i in s="article,aside,canvas,details,datalist,figcaption,figure,footer,header,keygen,main,nav,section,summary,time".split(','))document.createElement(s[i]);</script>
@@ -65,7 +67,7 @@ html_doc = """
     <div id="wrapper">
                                             <div id="headTextWrapper">
                     <h1 id="headText">
-                            すべての求人一覧
+                            フリーワード：Golangの求人一覧
                     </h1>
                 </div>
                                         <header id="header" class="noBorder">
@@ -111,158 +113,275 @@ html_doc = """
                             <ol id="topicPath">
                                                 <li class="topicPath_item"><a class="topicPath_anchor" href="https://www.vorkers.com/">ＨＯＭＥ</a></li>
 
-                                                <li class="topicPath_item topicPath_item-last">求人トップ</li>
+                                                <li class="topicPath_item"><a class="topicPath_anchor" href="/job_search_result?u=std">求人トップ</a></li>
+
+                                                <li class="topicPath_item topicPath_item-last">求人情報</li>
 
                                     </ol>
                                         <h2 class="fs-18 fw-n mb-10 mt-50">
-                                            <span class="d-ib v-t">&quot;</span><span class="truncate max-w-800 d-ib v-t">すべて</span><span class="d-ib v-t">&quot;</span><span class="ml-5 d-ib v-t">の求人一覧</span>
+                                            <span class="d-ib v-t">&quot;</span><span class="truncate max-w-800 d-ib v-t">フリーワード：Golang</span><span class="d-ib v-t">&quot;</span><span class="ml-5 d-ib v-t">の求人一覧</span>
                                     </h2>
-                                                            
-<form id="jsConditionForm" action="/job_search_result" method="GET" class="jsJobSearchCtForm">
-        <input type="hidden" id="n" name="n" />
-
-    <div class="box-15 mt-10 backgroundWhite">
-        <div class="o-h mt-5 pb-5 pl-5 pr-5">
-                                        <div class="borderLightGray-bottom pb-15 mb-15">
-                    <p class="pcIcon pcIcon-58 pcIcon-textIcon ml-5 truncate linkBlue"><a href="/job_search_result?o=1&amp;p=13&amp;y=500&amp;u=std" data-_v-event-logger-key="job_search_history" data-_v-event-logger-parameter="job_search_click"><span>前回の検索条件 … </span><span>ITエンジニア すべて / 東京都 / 年収：500万円以上</span></a></p>                </div>
-                                    <dl>
-                <dt class="d-ib fs-16 fw-b w-150 v-t lh-1o5 pt-5 pb-5">
-                    <span class="pcIcon pcIcon-43 pcIcon-jobList madblack">職種</span>
-                </dt>
-                <dd class="d-ib">
-                    <a id="jsOccupationModalTrigger" href="javascript:void(0)" class="modalTrigger-blue pcIcon pcIcon-51 jsModalOpen">選択する</a>
-                    <div class="gray d-ib w-655 o-h">
-                        <div id="jsOccupationFamilies" class="jsFamiliesWrapper pl-5 fs-12 mt-n5 d-n">
+                                                            <dl class="jobCounter jsJobCountWrapper">
+                        <dt class="colonListTerm jsJobCountTitle">該当求人</dt>
+                        <dd class="d-i"><span class="jsJobCount ml-5 mr-5 jobCounter_number">109</span>件</dd>
+                    </dl>
+                    <form id="jsConditionForm" action="/job_search_result" method="GET" class="jsJobSearchCtForm">
+                        <div class="box-15 mt-10 backgroundWhite">
+                            <div class="o-h mt-5 pb-5 pl-5 pr-5">
+                                                                                                <dl>
+                                    <dt class="d-ib fs-16 fw-b w-150 v-t lh-1o5 pt-5 pb-5">
+                                        <span class="pcIcon pcIcon-43 pcIcon-jobList madblack">職種</span>
+                                    </dt>
+                                    <dd class="d-ib">
+                                        <a id="jsOccupationModalTrigger" href="javascript:void(0)"
+                                           class="modalTrigger-blue pcIcon pcIcon-51 jsModalOpen">選択する</a>
+                                        <div class="gray d-ib w-655 o-h">
+                                            <div id="jsOccupationFamilies" class="jsFamiliesWrapper pl-5 fs-12 mt-n5 d-n">
     </div>
 
-                    </div>
-                    <input type="hidden" id="o" name="o" />
-                    <input type="hidden" id="z" name="z" />
-                </dd>
-            </dl>
-            <dl class="mt-15 borderLightGray-top pt-15">
-                <dt class="d-ib fs-16 fw-b w-150 v-t lh-1o5 pt-5 pb-5"><span class="pcIcon pcIcon-44 pcIcon-jobList madblack">勤務地</span></dt>
-                <dd class="d-ib">
-                    <a id="jsLocationModalTrigger" href="javascript:void(0)" class="modalTrigger-blue pcIcon pcIcon-51 jsModalOpen">選択する</a>
-                    <div class="gray d-ib w-655 o-h">
-                        <div class="pl-5 fs-12 d-n" style="display: block;">
-                            <div class="jsHouse d-ib fs-13">
-                                <ul id="jsLocationFamilies" class="jsPrefecturesWrapper childItem childItem-location"></ul>
+                                        </div>
+                                        <input type="hidden" id="o" name="o" />
+                                        <input type="hidden" id="z" name="z" />
+                                    </dd>
+                                </dl>
+                                <dl class="mt-15 borderLightGray-top pt-15">
+                                    <dt class="d-ib fs-16 fw-b w-150 v-t lh-1o5 pt-5 pb-5"><span
+                                                class="pcIcon pcIcon-44 pcIcon-jobList madblack">勤務地</span></dt>
+                                    <dd class="d-ib">
+                                        <a id="jsLocationModalTrigger" href="javascript:void(0)"
+                                           class="modalTrigger-blue pcIcon pcIcon-51 jsModalOpen">選択する</a>
+                                        <div class="gray d-ib w-655 o-h">
+                                            <div class="pl-5 fs-12 d-n" style="display: block;">
+                                                <div class="jsHouse d-ib fs-13">
+                                                    <ul id="jsLocationFamilies"
+                                                        class="jsPrefecturesWrapper childItem childItem-location"></ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <input type="hidden" id="p" name="p" />
+                                    </dd>
+                                </dl>
+
+                                                                <dl class="mt-15 borderLightGray-top pt-15 jsDefaultHide jsShowWhenShowCondition d-n">
+                                    <dt class="d-ib fs-16 fw-b w-150 v-t lh-1o5 pt-5 pb-5"><span class="pcIcon pcIcon-89 pcIcon-jobList pcIcon-jobList-remoteWork madblack">リモートワーク</span></dt>
+                                    <dd class="d-ib">
+                                        <div class="selectboxWrapper-default selectboxWrapper-gray d-ib">
+                                            <select id="remoteWork" name="remoteWork" class="selectbox-default selectbox-jobSearch w-210 fs-13"><option value="">指定しない</option><option value="3">リモートメイン</option><option value="2">リモート可</option></select>
+                                        </div>
+                                    </dd>
+                                </dl>
+
+                                                                <dl class="mt-15 borderLightGray-top pt-15 jsDefaultHide jsShowWhenShowCondition d-n">
+                                    <dt class="d-ib fs-16 fw-b w-150 v-t lh-1o5 pt-10 pb-5"><span
+                                                class="pcIcon pcIcon-04 pcIcon-jobList madblack">フリーワード</span></dt>
+                                    <dd class="d-ib w-800 pt-5 pb-5">
+                                        <div id="jsKeywordFamilies" class="jsFamiliesWrapper pb-10 o-h fs-12 mt-n10">
+<div class="jsHouse d-b mr-10 fs-13 lh-high ml-n15"><ul><li class="ml-15 mr-n5 mt-10 d-ib selectedItem jsKeywordFamily"><span class="truncate max-w-650 d-ib v-m">Golang</span><a class="selectedItem-delete jsKeywordDelete jsTagItem" href="javascript:void(0)" data-_v-id="Golang">選択解除</a></li></ul></div></div>
+
+                                        <input type="text" id="k" name="k" maxlength="100" class="textarea-blue h-32 w-450 jsJobSearchKeywordInput mr-20 fs-13 mb-5" placeholder="社名や仕事内容など" />
+                                        <input type="hidden" id="kt" name="kt" value="Golang" />
+                                        <input type="hidden" id="mids" name="mids" />
+                                    </dd>
+                                </dl>
+
+                                <div class="mt-15 borderLightGray-top pt-15 o-h jsDefaultHide jsShowWhenShowCondition d-n">
+                                                                        <dl class="f-l w-50p">
+                                        <dt class="d-ib fs-16 fw-b w-150 v-t pt-5"><span
+                                                    class="pcIcon pcIcon-52 pcIcon-jobList madblack">年収</span></dt>
+                                        <dd class="d-ib">
+                                            <div class="selectboxWrapper-default selectboxWrapper-gray d-ib">
+                                                <select id="y" name="y" class="selectbox-default selectbox-jobSearch w-210 fs-13"><option value="">指定しない</option><option value="300">300万円以上</option><option value="350">350万円以上</option><option value="400">400万円以上</option><option value="450">450万円以上</option><option value="500">500万円以上</option><option value="600">600万円以上</option><option value="700">700万円以上</option><option value="800">800万円以上</option><option value="1000">1000万円以上</option></select>
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                                                        <dl class="f-r w-50p">
+                                        <dt class="d-ib fs-16 fw-b w-150 v-t pt-5"><span
+                                                    class="pcIcon pcIcon-star10 pcIcon-jobList madblack">総合評価</span>
+                                        </dt>
+                                        <dd class="d-ib">
+                                            <div class="selectboxWrapper-default selectboxWrapper-gray d-ib">
+                                                <select id="totalS" name="totalS" class="selectbox-default selectbox-jobSearch w-210 fs-13"><option value="">指定しない</option><option value="2.5">2.5以上</option><option value="3.0">3.0以上</option><option value="3.5">3.5以上</option></select>
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </div>
+
+                                <div class="mt-15 borderLightGray-top pt-15 o-h jsDefaultHide jsShowWhenShowCondition d-n">
+                                                                        <dl class="f-l w-50p">
+                                        <dt class="d-ib fs-16 fw-b w-150 v-t pt-5"><span
+                                                    class="pcIcon pcIcon-57 pcIcon-jobList madblack">残業時間</span></dt>
+                                        <dd class="d-ib">
+                                            <div class="selectboxWrapper-default selectboxWrapper-gray d-ib">
+                                                <select id="x" name="x" class="selectbox-default selectbox-jobSearch w-210 fs-13"><option value="">指定しない</option><option value="20">20時間以内</option><option value="40">40時間以内</option><option value="60">60時間以内</option><option value="80">80時間以内</option></select>
+                                            </div>
+                                        </dd>
+                                    </dl>
+
+                                                                        <dl class="f-r w-50p">
+                                        <dt class="d-ib fs-16 fw-b w-150 v-t pt-5"><span
+                                                    class="pcIcon pcIcon-56 pcIcon-jobList madblack">有休消化率</span></dt>
+                                        <dd class="d-ib">
+                                            <div class="selectboxWrapper-default selectboxWrapper-gray d-ib">
+                                                <select id="w" name="w" class="selectbox-default selectbox-jobSearch w-210 fs-13"><option value="">指定しない</option><option value="20">20％以上</option><option value="40">40％以上</option><option value="60">60％以上</option><option value="80">80％以上</option></select>
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </div>
+
+                                                                <dl class="mt-15 borderLightGray-top pt-15 jsDefaultHide jsShowWhenShowCondition d-n">
+                                    <dt class="d-ib fs-16 fw-b w-150 v-t lh-1o5 pt-5 pb-5">
+                                        <span class="pcIcon pcIcon-65 pcIcon-jobList madblack">業界</span>
+                                    </dt>
+                                    <dd class="d-ib">
+                                        <a id="jsFieldModalTrigger" href="javascript:void(0)"
+                                           class="modalTrigger-blue pcIcon pcIcon-51 jsModalOpen">選択する</a>
+                                        <div class="gray d-ib w-655 o-h">
+                                            <div id="jsFieldFamilies" class="jsFamiliesWrapper pl-5 fs-12 mt-n5 d-n">
+    </div>
+
+                                        </div>
+                                        <input type="hidden" id="i" name="i" />
+                                        <input type="hidden" id="f" name="f" />
+                                    </dd>
+                                </dl>
                             </div>
                         </div>
-
-                    </div>
-                    <input type="hidden" id="p" name="p" />
-                </dd>
-            </dl>
-
-                        <dl class="mt-15 borderLightGray-top pt-15">
-                <dt class="d-ib fs-16 fw-b w-150 v-t lh-1o5 pt-5 pb-5"><span class="pcIcon pcIcon-89 pcIcon-jobList pcIcon-jobList-remoteWork madblack">リモートワーク</span></dt>
-                <dd class="d-ib">
-                    <div class="selectboxWrapper-default selectboxWrapper-gray d-ib">
-                        <select id="remoteWork" name="remoteWork" class="selectbox-default selectbox-jobSearch w-210 fs-13"><option value="">指定しない</option><option value="3">リモートメイン</option><option value="2">リモート可</option></select>
-                    </div>
-                </dd>
-            </dl>
-
-                        <dl class="mt-15 borderLightGray-top pt-15">
-                <dt class="d-ib fs-16 fw-b w-150 v-t lh-1o5 pt-10 pb-5"><span class="pcIcon pcIcon-04 pcIcon-jobList madblack">フリーワード</span></dt>
-                <dd class="d-ib w-800 pt-5 pb-5">
-                    <div id="jsKeywordFamilies" class="jsFamiliesWrapper pb-10 o-h fs-12 mt-n10 d-n">
-<div class="jsHouse d-b mr-10 fs-13 lh-high ml-n15"><ul></ul></div></div>
-
-                    <input type="text" id="k" name="k" maxlength="100" class="textarea-blue h-32 w-450 jsJobSearchKeywordInput mr-20 fs-13 mb-5" placeholder="社名や仕事内容など" />
-                    <input type="hidden" id="kt" name="kt" />
-                    <input type="hidden" id="mids" name="mids" />
-                </dd>
-            </dl>
-
-            <div class="mt-15 borderLightGray-top pt-15 o-h">
-                                <dl class="f-l w-50p">
-                    <dt class="d-ib fs-16 fw-b w-150 v-t pt-5"><span class="pcIcon pcIcon-52 pcIcon-jobList madblack">年収</span></dt>
-                    <dd class="d-ib">
-                        <div class="selectboxWrapper-default selectboxWrapper-gray d-ib">
-                            <select id="y" name="y" class="selectbox-default selectbox-jobSearch w-210 fs-13"><option value="">指定しない</option><option value="300">300万円以上</option><option value="350">350万円以上</option><option value="400">400万円以上</option><option value="450">450万円以上</option><option value="500">500万円以上</option><option value="600">600万円以上</option><option value="700">700万円以上</option><option value="800">800万円以上</option><option value="1000">1000万円以上</option></select>
+                        <div id="jsConditionSubmitBox" class="mt-20 p-r">
+                            <div id="jsConditionSubmitBoxChild">
+                                <div class="t-c ml-15 mr-15 p-r pb-10 pt-5">
+                                    <button class="button button-usuallyGreen fs-16 fw-b w-400 button-disable jsJobSearchCtSubmit"
+                                            type="submit">この条件で検索する（該当求人<span
+                                                class="jsJobCount ml-5 mr-5">109</span>件
+                                        <span class="ls-n13">）</span></button>
+                                </div>
+                            </div>
+                            <div class="showOtherItem jsShowCondition jsHideWhenShowCondition">
+                                <a href="javascript:void(0)" class="jsShowOtherItem">＋詳しい条件を設定する</a>
+                            </div>
                         </div>
-                    </dd>
-                </dl>
-                                <dl class="f-r w-50p">
-                        <dt class="d-ib fs-16 fw-b w-150 v-t pt-5"><span class="pcIcon pcIcon-star10 pcIcon-jobList madblack">総合評価</span></dt>
-    <dd class="d-ib">
-        <div class="selectboxWrapper-default selectboxWrapper-gray d-ib">
-            <select id="totalS" name="totalS" class="selectbox-default selectbox-jobSearch w-210 fs-13"><option value="">指定しない</option><option value="2.5">2.5以上</option><option value="3.0">3.0以上</option><option value="3.5">3.5以上</option></select>
-        </div>
-    </dd>
-
-                </dl>
-            </div>
-
-                        <div class="mt-15 borderLightGray-top pt-15 o-h jsDefaultHide jsShowWhenShowCondition d-n">
-                <dl class="f-l w-50p">
-                    <dt class="d-ib fs-16 fw-b w-150 v-t pt-5"><span class="pcIcon pcIcon-57 pcIcon-jobList madblack">残業時間</span></dt>
-                    <dd class="d-ib">
-                        <div class="selectboxWrapper-default selectboxWrapper-gray d-ib">
-                            <select id="x" name="x" class="selectbox-default selectbox-jobSearch w-210 fs-13"><option value="">指定しない</option><option value="20">20時間以内</option><option value="40">40時間以内</option><option value="60">60時間以内</option><option value="80">80時間以内</option></select>
+                        <div class="d-n">
+                            <select id="u" name="u"><option value="total">総合評価</option><option value="satisfy">待遇の満足度</option><option value="work_life_balance">ワークライフバランス</option><option value="junior">成長できる</option><option value="senior">長く働ける</option><option value="team">チームワーク</option><option value="std" selected="selected">希望条件</option><option value="new">新着</option></select>
                         </div>
-                    </dd>
-                </dl>
-
-                                <dl class="f-r w-50p">
-                    <dt class="d-ib fs-16 fw-b w-150 v-t pt-5"><span class="pcIcon pcIcon-56 pcIcon-jobList madblack">有休消化率</span></dt>
-                    <dd class="d-ib">
-                        <div class="selectboxWrapper-default selectboxWrapper-gray d-ib">
-                            <select id="w" name="w" class="selectbox-default selectbox-jobSearch w-210 fs-13"><option value="">指定しない</option><option value="20">20％以上</option><option value="40">40％以上</option><option value="60">60％以上</option><option value="80">80％以上</option></select>
-                        </div>
-                    </dd>
-                </dl>
-            </div>
-
-                        <dl class="mt-15 borderLightGray-top pt-15 jsDefaultHide jsShowWhenShowCondition d-n">
-    <dt class="d-ib fs-16 fw-b w-150 v-t lh-1o5 pt-5 pb-5">
-        <span class="pcIcon pcIcon-65 pcIcon-jobList madblack">業界</span>
-    </dt>
-    <dd class="d-ib">
-        <a id="jsFieldModalTrigger" href="javascript:void(0)" class="modalTrigger-blue pcIcon pcIcon-51 jsModalOpen">選択する</a>
-        <div class="gray d-ib w-655 o-h">
-            <div id="jsFieldFamilies" class="jsFamiliesWrapper pl-5 fs-12 mt-n5 d-n">
-    </div>
-
-        </div>
-        <input type="hidden" id="i" name="i" />
-        <input type="hidden" id="f" name="f" />
-    </dd>
-</dl>
-
-
-        </div>
-    </div>
-    <div id="jsConditionSubmitBox" class="mt-20 p-r">
-        <div id="jsConditionSubmitBoxChild">
-            <div class="t-c ml-15 mr-15 p-r pb-10 pt-5">
-                <button class="button button-usuallyGreen fs-16 fw-b w-400 button-disable jsJobSearchCtSubmit"
-                        type="submit">この条件で検索する（該当求人<span
-                            class="jsJobCount ml-5 mr-5">53,317</span>件<span
-                            class="ls-n13">）</span></button>
-            </div>
-        </div>
-                    <div class="showOtherItem jsHideWhenShowCondition">
-                <a href="javascript:void(0)" class="jsShowOtherItem">＋詳しい条件を設定する</a>
-            </div>
-            </div>
-    <div class="d-n">
-        <select id="u" name="u"><option value="total">総合評価</option><option value="satisfy">待遇の満足度</option><option value="work_life_balance">ワークライフバランス</option><option value="junior">成長できる</option><option value="senior">長く働ける</option><option value="team">チームワーク</option><option value="std" selected="selected">希望条件</option><option value="new">新着</option></select>
-    </div>
-</form>
+                    </form>
                                     </header>
 
                         
-<div class="sortTabWrapper-jobList"><ul class="sortTab-jobList fs-14"><li class="sortTab-jobList_item"><a href="/job_search_result?u=std&amp;page=1" class="sortTab-jobList_link sortTab-jobList_link-current">希望条件</a></li><li class="sortTab-jobList_item"><a href="/job_search_result?u=new&amp;page=1" class="sortTab-jobList_link">新着</a></li><li class="sortTab-jobList_item"><a href="/job_search_result?u=total&amp;page=1" class="sortTab-jobList_link">ランキング</a></li></ul></div>
+<div class="sortTabWrapper-jobList"><ul class="sortTab-jobList fs-14"><li class="sortTab-jobList_item"><a href="/job_search_result?kt=Golang&amp;u=std&amp;page=1" class="sortTab-jobList_link sortTab-jobList_link-current">希望条件</a></li><li class="sortTab-jobList_item"><a href="/job_search_result?kt=Golang&amp;u=new&amp;page=1" class="sortTab-jobList_link">新着</a></li><li class="sortTab-jobList_item"><a href="/job_search_result?kt=Golang&amp;u=total&amp;page=1" class="sortTab-jobList_link">ランキング</a></li></ul></div>
                         </div>
             <div id="contents">                                    <div class="o-h">            <div class="mt-10 o-h">
-                                                                                        <p><a href="/admission.php">ユーザー登録</a>すると希望条件に近い求人が優先的に表示されます</p>
-                                                                        </div>
+                                                                </div>
                                 
 <article class="break-word borderGray mt-20">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C1000000qqgTo" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">株式会社モンスターラボ</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="モンスターラボのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png 1x, https://image.vorkers.com/resize/105x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star7"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                3.72
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000qqgTo"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000qqgTo/recruit?j=4dbb63e0b10560c9"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">サービス開発プロジェクトマネージャー</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                    <div class="f-r w-280 backgroundLightGray t-c">
+                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/47620/job_offer/17927.png" class="max-h-225 max-w-280" alt="">
+                    </div>
+                                                    <p class="jobListJobDescription w-650">…するプロジェクトに携わることができます。
+
+◆開発環境一例
+言語　　　　　　：Java, PHP, Ruby, <b>Golang</b>, JavaScript, TypeScript, HTML, CSS, Swift, Kotlin, Flutter
+フレームワーク　：React, Vue.JS, Node.JS, Laravel, Ruby on Rails, Spring boot
+環境　　　　　　：AWS, Azure, GCP
+データベース　　：RDB, NoSQL
+プロジェクト管理：JIRA,</p>
+                                                    <table class="table-job w-650">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 490万～1000万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    東京都
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    リモートワーク
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    リモートメイン
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+        <p class="jobListBody_date">21日前</p>        <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000qqgTo/recruit?j=4dbb63e0b10560c9"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
         <h4>
@@ -300,11 +419,11 @@ html_doc = """
         <div class="o-h p-l">
             <div class="o-h ml-5">
                 <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">PR・広告宣伝・販促</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
                     </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000sgO4l/recruit?j=31c3850aff9c1ec2"
+                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000sgO4l/recruit?j=f0784f078d4bd92f"
                        target="_blank">
-                        <span class="pcIcon-blank_border">SMB向けマーケティングマネージャー</span>
+                        <span class="pcIcon-blank_border">シニアクレジットカード事業開発エンジニア</span>
                     </a>
                 </h5>
             </div>
@@ -314,21 +433,20 @@ html_doc = """
         <div class="mt-20">
                                     <div class="o-h">
                                     <div class="f-r w-280 backgroundLightGray t-c">
-                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/51865/job_offer/22018.jpg" class="max-h-225 max-w-280" alt="">
+                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/51865/job_offer/20961.jpg" class="max-h-225 max-w-280" alt="">
                     </div>
-                                                    <p class="jobListJobDescription w-650">SMBセグメントは20万社強のマーケットとなっており、さらに同マーケットに対して法改正のトレンドに合わせた新しいプロダクトをローンチしています。当社が保有する大規模なハウスリストDBを活用し、ナーチャリング型のコミュニケーション戦略でマーケット攻略の実現をマネージャーとして急ピッチで目指していただきます。
+                                                    <p class="jobListJobDescription w-650">…d」の開発に携わっていただきます。
 
-【業務詳細】
-・インサイドセールスやフィールドセールスを巻き込んだマーケティング戦略立案及びKPI設計・施策と予算のアロケーション
-・実行オペレーションおよび組織体制の構築、マネジメント
-・</p>
+PM・UXとチームを組み、プロダクト開発を行っていただきます（スクラム）
+<b>Golang</b> / Ruby on Rails / Reactを用いてバックエンド、フロントエンド、インフラなどを問わず、広くサービス開発に携わっていただきます
+グロースフェーズにあるプロダクトであり、ビジネスサイドからのフィードバックを受けながら、プロダクトマーケットフィットを目指して機能追加や改善を行っていただきます</p>
                                                     <table class="table-job w-650">
                                                     <tr>
                                 <th class="table-job_tableHeader pt-10 pb-10">
                                     給与
                                 </th>
                                 <td class="table-job_tableData pt-10 pb-10">
-                                    年収 600万～900万円
+                                    年収 500万～1200万円
                                 </td>
                             </tr>
                                                     <tr>
@@ -339,20 +457,12 @@ html_doc = """
                                     東京都
                                 </td>
                             </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
                                             </table>
                             </div>
         </div>
     </div>
     <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">13時間前</p>        <ul>
+                <ul>
             <li class="d-i mr-20">
                                                             <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
        class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
@@ -361,7 +471,7 @@ html_doc = """
 
             </li>
             <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000sgO4l/recruit?j=31c3850aff9c1ec2"
+                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000sgO4l/recruit?j=f0784f078d4bd92f"
                    target="_blank"><span
                             class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
             </li>
@@ -373,220 +483,15 @@ html_doc = """
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
         <h4>
-                        <a href="/company.php?m_id=a0910000000Frvf" target="_blank"
+                        <a href="/company.php?m_id=a0C1000001KAOkW" target="_blank"
                class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
                data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
                data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">日本テレビ放送網株式会社</span>
+                <span class="pcIcon-blank_border">デロイト トーマツ サイバー合同会社</span>
             </a>
         </h4>
         <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="日本テレビ放送網のロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/3582-d79166b7ff454e2e479b32ed4d485ef4.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/3582-d79166b7ff454e2e479b32ed4d485ef4.png 1x, https://image.vorkers.com/resize/105x-/logo/company/3582-d79166b7ff454e2e479b32ed4d485ef4.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/3582-d79166b7ff454e2e479b32ed4d485ef4.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star2"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.15
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0910000000Frvf"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">放送、出版、新聞、映像、音響業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">M&amp;A・投資銀行部門</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0910000000Frvf/recruit?j=02e6fa210644333c"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">Ｍ＆Ａアドバイザリー</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                                    <p class="jobListJobDescription">・M&Aに関する業務、新規事業開発、投資・提携先のソーシング、交渉・検証等の業務、社内外の経営情報の調査・収集・分析および取締役会への答申に関する業務など。
-・日本テレビおよびグループ各社の中長期の経営計画・戦略の立案、管理、推進に関する業務、新たなビジネススキームの構築、推進に関する業務など。</p>
-                                                    <table class="table-job">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 850万円～
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">15時間前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0910000000Frvf/recruit?j=02e6fa210644333c"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0910000000G1yx" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">日本アイ・ビー・エム株式会社（IBM）</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="日本アイ・ビー・エム（IBM）のロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png 1x, https://image.vorkers.com/resize/105x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star1"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.08
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0910000000G1yx"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">プリセールス・セールスエンジニア</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0910000000G1yx/recruit?j=ab8afcedb701fead"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">【金融系クライアント担当】セールスコンサルタント/アカウントセールス/ITソリューション営業</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                                    <p class="jobListJobDescription">■会社について－Be essential－社会やお客様にとってかけがえのない存在に－
-当社は、世の中の困難な課題をITを使って解決しており、様々な分野で貢献しています。
-金融、製造などの民間企業から、病院、学校といった公的機関に至るまで、変革を求めるすべての組織が、当社のお客様です。
-
-100年以上にわたり、小売から金融、スポーツ、宇宙産業にいたるまで、さまざまな領域で
-世界を変えるイノベーションを次々に起こしてきた当社は、米国特許取得数トップクラスを獲得するなど
-確かな実績に裏付けられた世界有</p>
-                                                    <table class="table-job">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 700万～2000万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">16時間前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0910000000G1yx/recruit?j=ab8afcedb701fead"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0C1000000skF3Y" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">株式会社ギャプライズ</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="ギャプライズのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/53551-0fdf53b55e106578cd6179774c3b95a0.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/53551-0fdf53b55e106578cd6179774c3b95a0.png 1x, https://image.vorkers.com/resize/105x-/logo/company/53551-0fdf53b55e106578cd6179774c3b95a0.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/53551-0fdf53b55e106578cd6179774c3b95a0.png 2x">
+            <img class="companyLogoImage-space" alt="デロイト トーマツ サイバー合同会社のロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/147680-8044d31cbec6a8c2c0228ab3a983eba1.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/147680-8044d31cbec6a8c2c0228ab3a983eba1.png 1x, https://image.vorkers.com/resize/105x-/logo/company/147680-8044d31cbec6a8c2c0228ab3a983eba1.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/147680-8044d31cbec6a8c2c0228ab3a983eba1.png 2x">
         </div>
     </div>
     <div class="pt-5">
@@ -600,23 +505,23 @@ html_doc = """
 
             </p>
             <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.01
+                4.00
             </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000skF3Y"></span>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000001KAOkW"></span>
         </div>
                 </div>
-    <p class="f-l lh-high">インターネット業界</p>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
 </div>
 
     <div class="pt-25 pr-25 pl-25">
         <div class="o-h p-l">
             <div class="o-h ml-5">
                 <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">代理店営業</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">ITコンサルタント・システムコンサルタント</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
                     </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000skF3Y/recruit?j=efbd0175dad30a3c"
+                    <a class="gtm_agent pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000001KAOkW/recruit_agent?j=5e2512e5695a496b6c"
                        target="_blank">
-                        <span class="pcIcon-blank_border">フィールドセールス（海外最先端ITソリューション：Contentsquare、Optimizely、ABTasty、新規プロダクト）</span>
+                        <span class="pcIcon-blank_border">Anti-Fraud Consultant Quality Assurance Platform  /Quality Cross-Validation</span>
                     </a>
                 </h5>
             </div>
@@ -625,20 +530,17 @@ html_doc = """
     <div class="pl-25 pb-20 pr-25">
         <div class="mt-20">
                                     <div class="o-h">
-                                    <div class="f-r w-280 backgroundLightGray t-c">
-                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/53551/job_offer/21872.jpg" class="max-h-225 max-w-280" alt="">
-                    </div>
-                                                    <p class="jobListJobDescription w-650">≪業務内容≫
-主に大手企業の販売促進やマーケティング部門を顧客として、デジタル顧客体験分析、ABテスティング、パーソナライゼーション、レコメンデーションなどの様々なSaaS型ITソリューションを提案します。新規または既存の顧客に対して社内のマーケティング、インサイドセールス、カスタマーサクセスチームや海外パートナー、ビジネスパートナーなどといった外部関係者とも協業しながら業務を進めていただきます。
+                                                    <p class="jobListJobDescription">There are two major functions of quality engineering which the candidate may select:
 
-製品だけでなくプロフェッショナル人材による、アウトソーシングやコンサルティングサービスを組み合わ</p>
-                                                    <table class="table-job w-650">
+• Platform:
+o The engineer will be expected to create, track, report and execute test cases, for the platform or client dependences to maximize high SLO’s such as 9</p>
+                                                    <table class="table-job">
                                                     <tr>
                                 <th class="table-job_tableHeader pt-10 pb-10">
                                     給与
                                 </th>
                                 <td class="table-job_tableData pt-10 pb-10">
-                                    年収 500万～700万円
+                                    別途ご案内いたします。
                                 </td>
                             </tr>
                                                     <tr>
@@ -662,7 +564,7 @@ html_doc = """
         </div>
     </div>
     <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">16時間前</p>        <ul>
+        <p class="jobListBody_date">3日前</p>        <ul>
             <li class="d-i mr-20">
                                                             <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
        class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
@@ -671,7 +573,7 @@ html_doc = """
 
             </li>
             <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000skF3Y/recruit?j=efbd0175dad30a3c"
+                                <a class="gtm_agent button button-usuallyBlue fs-16 w-250" href="/a0C1000001KAOkW/recruit_agent?j=5e2512e5695a496b6c"
                    target="_blank"><span
                             class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
             </li>
@@ -683,15 +585,15 @@ html_doc = """
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
         <h4>
-                        <a href="/company.php?m_id=a0C1000000Rbf0d" target="_blank"
+                        <a href="/company.php?m_id=a0C1000000xAV2w" target="_blank"
                class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
                data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
                data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">ナイル株式会社（インターネット）</span>
+                <span class="pcIcon-blank_border">ロゴスウェア株式会社</span>
             </a>
         </h4>
         <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="ナイル（インターネット）のロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/12103-b759381901eff3c3bbce7cf869aeb151.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/12103-b759381901eff3c3bbce7cf869aeb151.png 1x, https://image.vorkers.com/resize/105x-/logo/company/12103-b759381901eff3c3bbce7cf869aeb151.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/12103-b759381901eff3c3bbce7cf869aeb151.png 2x">
+            <img class="companyLogoImage-space" alt="ロゴスウェアのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/68992-d8439c386b118c1a7ac509f82c5683ae.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/68992-d8439c386b118c1a7ac509f82c5683ae.png 1x, https://image.vorkers.com/resize/105x-/logo/company/68992-d8439c386b118c1a7ac509f82c5683ae.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/68992-d8439c386b118c1a7ac509f82c5683ae.png 2x">
         </div>
     </div>
     <div class="pt-5">
@@ -700,126 +602,14 @@ html_doc = """
                     <span class="icon-star icon-star-big icon-star10"></span>
     <span class="icon-star icon-star-big icon-star10"></span>
     <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star6"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
 
             </p>
             <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.59
+                2.99
             </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000Rbf0d"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">インターネット業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">マーケティングリサーチ</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000Rbf0d/recruit?j=851c800127645c17"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">インハウスマーケター（BtoB）【デジタルマーケティング事業部】</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                    <div class="f-r w-280 backgroundLightGray t-c">
-                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/12103/job_offer/22003.png" class="max-h-225 max-w-280" alt="">
-                    </div>
-                                                    <p class="jobListJobDescription w-650">当社のデジタルマーケティング事業部のマーケティングユニットにて、より多くのお客様との接点や問い合わせを創出し、ナイルのコンサルティングブランドをより強化するため、情報メディアの運営やナーチャリング施策などのBtoBマーケティングに関わる業務をお任せします。
-
-＜入社後ミッション＞
-リード獲得の最大化
-
-＜体制＞
-マネージャー1名（30代前後）、メンバー1名（20代半ば）
-
-＜具体的な業務＞
-・メディア運営（戦略策定、記事制作、効果検証）
-・サイト流入とコンバージョンを最大化するための施策考案・実</p>
-                                                    <table class="table-job w-650">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 450万～560万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">17時間前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000Rbf0d/recruit?j=851c800127645c17"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0C1000000IzlRo" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">株式会社エル・ティー・エス</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="エル・ティー・エスのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/10227-2c918c2b80f475245497cfe0132f4bf0.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/10227-2c918c2b80f475245497cfe0132f4bf0.png 1x, https://image.vorkers.com/resize/105x-/logo/company/10227-2c918c2b80f475245497cfe0132f4bf0.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/10227-2c918c2b80f475245497cfe0132f4bf0.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star1"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.11
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000IzlRo"></span>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000xAV2w"></span>
         </div>
                 </div>
     <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
@@ -829,11 +619,11 @@ html_doc = """
         <div class="o-h p-l">
             <div class="o-h ml-5">
                 <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">ITコンサルタント・システムコンサルタント</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">社内SE</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
                     </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000IzlRo/recruit?j=27c0120b3ce19525"
+                    <a class="gtm_agent pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000xAV2w/recruit_agent?j=739377134fafacdfda"
                        target="_blank">
-                        <span class="pcIcon-blank_border">トランスフォーメーションコンサルタント（東京）【シニアコンサルタント】</span>
+                        <span class="pcIcon-blank_border">【Python/Go】社内SE◆経理系システムの企画開発◆</span>
                     </a>
                 </h5>
             </div>
@@ -842,24 +632,18 @@ html_doc = """
     <div class="pl-25 pb-20 pr-25">
         <div class="mt-20">
                                     <div class="o-h">
-                                                    <p class="jobListJobDescription">戦略、業務、IT、人財の面で多くの課題を抱えるお客様がいます。そのお客様に対して我々の事業部では「戦略の実行にコミットする」をモットーに、①変革のデザイン、②変革の具体化・実行、③変革のマネジメントを価値として提供しています。
+                                                    <p class="jobListJobDescription">自社内の経理部門・営業部門で利用する業務システムの開発・構築・運用保守をご担当いただきます。経営に直結する社内のDX対応を、リーダーシップをもって推進していく人材を募集します。現在社内では顧客案件の見積り・請求を管理する自社開発のシステムが稼働しています。管理部門だけでなく、他部署のメンバーも利用するため、使いやすさに加えいかに効率よく業務を進められるかが課題になっています。
 
 【業務内容】
-■戦略立案/構想策定
-・DX戦略/構想策定支援（IT/デジタル技術を活用した経営課題の解決）
-・デジタル技術を活用した新規事業創出・事業/サービス開発支援
-・経営戦略・事業戦略策定
-・中期経営計画策定
-
-■ビジネストランスフォーメーション推進
-・経営管理高</p>
+■上記管理業務系システムの運用保守および機能改善
+■システム化が未整備な領域の新たなシステム化（自社開発</p>
                                                     <table class="table-job">
                                                     <tr>
                                 <th class="table-job_tableHeader pt-10 pb-10">
                                     給与
                                 </th>
                                 <td class="table-job_tableData pt-10 pb-10">
-                                    年収 400万～800万円
+                                    別途ご案内いたします。
                                 </td>
                             </tr>
                                                     <tr>
@@ -867,15 +651,7 @@ html_doc = """
                                     勤務地
                                 </th>
                                 <td class="table-job_tableData pt-10 pb-10">
-                                    東京都
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
+                                    茨城県
                                 </td>
                             </tr>
                                             </table>
@@ -883,7 +659,7 @@ html_doc = """
         </div>
     </div>
     <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">17時間前</p>        <ul>
+        <p class="jobListBody_date">2日前</p>        <ul>
             <li class="d-i mr-20">
                                                             <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
        class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
@@ -892,7 +668,7 @@ html_doc = """
 
             </li>
             <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000IzlRo/recruit?j=27c0120b3ce19525"
+                                <a class="gtm_agent button button-usuallyBlue fs-16 w-250" href="/a0C1000000xAV2w/recruit_agent?j=739377134fafacdfda"
                    target="_blank"><span
                             class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
             </li>
@@ -904,15 +680,15 @@ html_doc = """
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
         <h4>
-                        <a href="/company.php?m_id=a0C1000000Y0jZX" target="_blank"
+                        <a href="/company.php?m_id=a0C10000015KqfW" target="_blank"
                class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
                data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
                data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">株式会社ユーザベース</span>
+                <span class="pcIcon-blank_border">GROOVE X株式会社</span>
             </a>
         </h4>
         <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="ユーザベースのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/15576-c167695087aa0471f8607c7879f91432.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/15576-c167695087aa0471f8607c7879f91432.png 1x, https://image.vorkers.com/resize/105x-/logo/company/15576-c167695087aa0471f8607c7879f91432.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/15576-c167695087aa0471f8607c7879f91432.png 2x">
+            <img class="companyLogoImage-space" alt="GROOVE Xのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/118308-5af65fe90a1d5d26d376e292ed03ba6f.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/118308-5af65fe90a1d5d26d376e292ed03ba6f.png 1x, https://image.vorkers.com/resize/105x-/logo/company/118308-5af65fe90a1d5d26d376e292ed03ba6f.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/118308-5af65fe90a1d5d26d376e292ed03ba6f.png 2x">
         </div>
     </div>
     <div class="pt-5">
@@ -920,132 +696,125 @@ html_doc = """
             <p class="totalEvaluation_item v-m">
                     <span class="icon-star icon-star-big icon-star10"></span>
     <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                3.02
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C10000015KqfW"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（制御・組込み系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_agent pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C10000015KqfW/recruit_agent?j=54caa09cdeca670acb"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">グラフィックスエンジニア（家庭用ロボット／目のレンダリング）</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                                    <p class="jobListJobDescription">…発言語
+　・目のディスプレイの描画に関係するソフトウェア: C++、Python3
+　・関連するソフトウェア: <b>Golang</b>、JavaScript
+・グラフィックス処理のプラットフォーム：OpenGL、EGL、X
+・データベース：Redis、 BigQuery　・インフラ：GCP、Docker
+・その他ツール：GitHub、Slack、CircleCI、ovice、esa</p>
+                                                    <table class="table-job">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 450万〜1000万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    東京都
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+        <p class="jobListBody_date">3日前</p>        <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_agent button button-usuallyBlue fs-16 w-250" href="/a0C10000015KqfW/recruit_agent?j=54caa09cdeca670acb"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C1000000vBCPh" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">株式会社PKSHA Technology</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="PKSHA Technologyのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 1x, https://image.vorkers.com/resize/105x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
     <span class="icon-star icon-star-big icon-star10"></span>
     <span class="icon-star icon-star-big icon-star10"></span>
     <span class="icon-star icon-star-big icon-star4"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.39
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000Y0jZX"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">インターネット業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">その他（営業）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000Y0jZX/recruit?j=228471ba609d071e"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">SPC-CS</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                    <div class="f-r w-280 backgroundLightGray t-c">
-                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/15576/job_offer/21989.jpg" class="max-h-225 max-w-280" alt="">
-                    </div>
-                                                    <p class="jobListJobDescription w-650">【本ポジションについて（SPEEDA カスタマーサクセスチーム）】
-2018年に創設されたSPEEDAカスタマーサクセスチームは、事業課題・経営課題に取り組むユーザーに寄り添い、SPEEDA及びユーザベースグループのサービスを通して情報収集の側面から伴走支援する役割となります。また、ユーザベースの基幹事業であるSPEEDAにおいて、ユーザーと長期的に向き合いながら、プロダクトサイドやアナリスト等社内の様々なステークホルダーを巻き込んだ事業づくりを行うため、ビジネスパーソンとしての総合力が磨かれる</p>
-                                                    <table class="table-job w-650">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 550万～800万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">18時間前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000Y0jZX/recruit?j=228471ba609d071e"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0C10000014bXFJ" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">株式会社アイ・グリッド・ソリューションズ</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="アイ・グリッド・ソリューションズのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/114226-33af3e5c2b63b506d8554e20ac1464c5.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/114226-33af3e5c2b63b506d8554e20ac1464c5.png 1x, https://image.vorkers.com/resize/105x-/logo/company/114226-33af3e5c2b63b506d8554e20ac1464c5.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/114226-33af3e5c2b63b506d8554e20ac1464c5.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star9"></span>
     <span class="icon-star icon-star-big icon-star0"></span>
 
             </p>
             <p class="totalEvaluation_item fs-15 fw-b v-b">
-                3.91
+                3.44
             </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C10000014bXFJ"></span>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000vBCPh"></span>
         </div>
                 </div>
-    <p class="f-l lh-high">電力、ガス、エネルギー業界</p>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
 </div>
 
     <div class="pt-25 pr-25 pl-25">
         <div class="o-h p-l">
             <div class="o-h ml-5">
                 <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">施工管理（建築）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
                     </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C10000014bXFJ/recruit?j=9fd752c5f22d80b5"
+                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000vBCPh/recruit?j=647f15442b0fbf87"
                        target="_blank">
-                        <span class="pcIcon-blank_border">【第二新卒歓迎】サービス導入PJ事業推進</span>
+                        <span class="pcIcon-blank_border">エンジニアリングマネージャー【AlgorithmSolution】</span>
                     </a>
                 </h5>
             </div>
@@ -1055,432 +824,15 @@ html_doc = """
         <div class="mt-20">
                                     <div class="o-h">
                                     <div class="f-r w-280 backgroundLightGray t-c">
-                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/114226/job_offer/22024.jpg" class="max-h-225 max-w-280" alt="">
+                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/69457/job_offer/20039.png" class="max-h-225 max-w-280" alt="">
                     </div>
-                                                    <p class="jobListJobDescription w-650">当社グループ((株)VPP Japan)が保有する太陽光発電所の開発業務を行うにあたり、施主として以下業務を担当いただきます。
-「グリーンエネルギーがめぐる社会の実現」を目指す当社グループの拡大フェーズに伴い、設計監理や施工会社のマネジメント業務をご担当いただきます。
-経験豊富なチームリーダーの元で、プロジェクトマネジメントのスキルを身に着けることができるポジションです。
+                                                    <p class="jobListJobDescription w-650">PKSHA Technologyは「未来のソフトウェアを形にする」をミッションに掲げています。
+2012年の創業以来、ミッションの達成に向けて2000を超える企業に160以上のアルゴリズム・AI SaaSを導入し、1日930万人以上のユーザーに利用されています。
 
-【具体的には】
-・リーダーのサポートを受けながら、施工会社と連携し施設の発電所建設を推進していただきます。
-・現場施工監理</p>
-                                                    <table class="table-job w-650">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 420万～600万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">1時間以内</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
+私達と一緒に、未来のソフトウエアを形にして、人とソフトウエアの共進化を進めていきたい、そのような方をお待ちしています。
 
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C10000014bXFJ/recruit?j=9fd752c5f22d80b5"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0910000000G33n" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">アクセンチュア株式会社</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="アクセンチュアのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/7856-efc501d46c922cd5b0effdae6866ce80.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/7856-efc501d46c922cd5b0effdae6866ce80.png 1x, https://image.vorkers.com/resize/105x-/logo/company/7856-efc501d46c922cd5b0effdae6866ce80.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/7856-efc501d46c922cd5b0effdae6866ce80.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star3"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.32
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0910000000G33n"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">コンサルティング、シンクタンク業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">Webマーケティング</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0910000000G33n/recruit?j=265cf8d35d9328c8"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">【外資大手コンサルティング会社でのデジタルマーケティングポジション】テクニカルコンサルタント</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                    <div class="f-r w-280 backgroundLightGray t-c">
-                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/7856/job_offer/21979.jpg" class="max-h-225 max-w-280" alt="">
-                    </div>
-                                                    <p class="jobListJobDescription w-650">当ポジションは世界最大級のコンサルティングファームの一員として「BOOST IT.」をスローガンに、クライアント企業の変革活動を通して、生活者、社会に対して大きなインパクトを与え、常に生活者視点で企業のビジネスパフォーマンスの最大化を実現することがミッションのデジタルマーケティングポジションになります。
-また、コンサルティングによって培われた戦略をカタチにする力、実現する力『コンサル×クリエイティブ』によって、企業活動から社会課題まで、DXを基盤とした顧客体験の活性化と新たなサービスやプロダクト</p>
-                                                    <table class="table-job w-650">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 500万～1500万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">21時間前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0910000000G33n/recruit?j=265cf8d35d9328c8"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0910000000Fr7J" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">株式会社構造計画研究所</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="構造計画研究所のロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/1442-45340895c6d4de44ab0d5afc6c7392c0.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/1442-45340895c6d4de44ab0d5afc6c7392c0.png 1x, https://image.vorkers.com/resize/105x-/logo/company/1442-45340895c6d4de44ab0d5afc6c7392c0.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/1442-45340895c6d4de44ab0d5afc6c7392c0.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star0"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.00
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0910000000Fr7J"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">建築、土木、設備工事業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">組織・人事コンサルタント</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0910000000Fr7J/recruit?j=9beefec53f1c3a53"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">人事リクルーター</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                                    <p class="jobListJobDescription">会社全体、各部門の状況をふまえながら、キャリア採用を中心に採用活動を行っていただきます。
-
-・採用計画の立案・実行
-・企業情報の作成・管理
-・求人票の作成・管理
-・応募受付
-・会社説明会の開催
-・選考（書類、面接）
-・オファー面談
-・内定者フォロー
-・入社対応</p>
-                                                    <table class="table-job">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 600万～900万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">23時間前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0910000000Fr7J/recruit?j=9beefec53f1c3a53"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0C1000000P9x2g" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">株式会社リクルートマネジメントソリューションズ</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="リクルートマネジメントソリューションズのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/10994-4b5a1ef084ac96e653f1c32255fced7a.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/10994-4b5a1ef084ac96e653f1c32255fced7a.png 1x, https://image.vorkers.com/resize/105x-/logo/company/10994-4b5a1ef084ac96e653f1c32255fced7a.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/10994-4b5a1ef084ac96e653f1c32255fced7a.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star8"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.81
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000P9x2g"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">教育、研修サービス業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">法人営業</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000P9x2g/recruit?j=247d48c9069f5d41"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">働きがいのある会社研究所（グループ会社） ／ 【東京勤務】セールス・コンサルタント</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                                    <p class="jobListJobDescription">GPTW Japanは、Great Place To Work®の理念やモデル、優れた事例の紹介等を通じて、日本における「働きがいのある会社」の普及と実現のための支援活動をし、ひいてはよりよい社会の実現に貢献することを目指しています。今回の募集では、販促活動、商談対応、カスタマーサクセスなどを行っていただける方を募集しています。また、将来的には、”働きがい”に関する専門性を有したコンサルタントとしての活躍も期待します。
-
-【具体的な業務例】※ご本人の適性やキャリアの志向に応じて、業務割合は可変で</p>
-                                                    <table class="table-job">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 640万～706万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">1日前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000P9x2g/recruit?j=247d48c9069f5d41"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0910000000GWXo" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">マーサージャパン株式会社</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="マーサージャパンのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/7963-954a8af23884232ca71bd0222792d231.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/7963-954a8af23884232ca71bd0222792d231.png 1x, https://image.vorkers.com/resize/105x-/logo/company/7963-954a8af23884232ca71bd0222792d231.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/7963-954a8af23884232ca71bd0222792d231.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star9"></span>
-    <span class="icon-star icon-star-big icon-star0"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                3.94
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0910000000GWXo"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">コンサルティング、シンクタンク業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">組織・人事コンサルタント</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0910000000GWXo/recruit?j=ef2f7930013d77f7"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">アカウントマネージャー（大手企業担当コンサルタント）※外資系コンサルティングファームにおける営業ポジション</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                    <div class="f-r w-280 backgroundLightGray t-c">
-                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/7963/job_offer/21993.png" class="max-h-225 max-w-280" alt="">
-                    </div>
-                                                    <p class="jobListJobDescription w-650">プロダクト・ソリューションズ部門では、グローバルネットワークを最大限活用した、総合的、かつ高付加価値な人事情報の提供、情報の比較・分析をベースとしたコンサルティングを通じ、企業の意思決定をサポートしています。特に世界最大規模の「給与・福利厚生に関する総報酬」やマーケットシェアトップクラスの「海外派遣者報酬」の領域において、高い専門性を活かし、総合的にクライアントの成長をご支援しています。
-
-アカウントマネージャーとして、大手企業を中心とする既存クライアントとのリレーションシップ構築、各種サービス</p>
+【仕事内容】
+PKSHA Technologyでは、多岐に渡る大手企業に、自然言語処理・画像認識・音声認識・予測</p>
                                                     <table class="table-job w-650">
                                                     <tr>
                                 <th class="table-job_tableHeader pt-10 pb-10">
@@ -1511,7 +863,7 @@ html_doc = """
         </div>
     </div>
     <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">18時間前</p>        <ul>
+                <ul>
             <li class="d-i mr-20">
                                                             <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
        class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
@@ -1520,7 +872,7 @@ html_doc = """
 
             </li>
             <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0910000000GWXo/recruit?j=ef2f7930013d77f7"
+                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000vBCPh/recruit?j=647f15442b0fbf87"
                    target="_blank"><span
                             class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
             </li>
@@ -1532,15 +884,15 @@ html_doc = """
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
         <h4>
-                        <a href="/company.php?m_id=a0C1000000x9PF9" target="_blank"
+                        <a href="/company.php?m_id=a0C1000000vArK5" target="_blank"
                class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
                data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
                data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">株式会社電通デジタル</span>
+                <span class="pcIcon-blank_border">株式会社ヤプリ</span>
             </a>
         </h4>
         <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="電通デジタルのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/68445-043bf503235c418e2d802382868b27c0.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/68445-043bf503235c418e2d802382868b27c0.png 1x, https://image.vorkers.com/resize/105x-/logo/company/68445-043bf503235c418e2d802382868b27c0.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/68445-043bf503235c418e2d802382868b27c0.png 2x">
+            <img class="companyLogoImage-space" alt="ヤプリのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/69336-85b31c4e1daecf4a4f565881ba51903d.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/69336-85b31c4e1daecf4a4f565881ba51903d.png 1x, https://image.vorkers.com/resize/105x-/logo/company/69336-85b31c4e1daecf4a4f565881ba51903d.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/69336-85b31c4e1daecf4a4f565881ba51903d.png 2x">
         </div>
     </div>
     <div class="pt-5">
@@ -1549,117 +901,14 @@ html_doc = """
                     <span class="icon-star icon-star-big icon-star10"></span>
     <span class="icon-star icon-star-big icon-star10"></span>
     <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star4"></span>
     <span class="icon-star icon-star-big icon-star0"></span>
 
             </p>
             <p class="totalEvaluation_item fs-15 fw-b v-b">
-                3.96
+                3.36
             </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000x9PF9"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">PR・広告宣伝・販促</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000x9PF9/recruit?j=ff87f894172557eb"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">【オープンポジション】アカウント・プランナー系職種</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                                    <p class="jobListJobDescription">【弊社について】
-弊社は2016年に設立された、大手総合広告代理店グループのデジタルマーケティング専門会社です。
-弊社ではデジタルマーケティングのすべての領域に対して、コンサルティング～開発・実装～運用・実行支援機能を持っています。
-広告業界は、50年に一度の転換期と言われます。デジタルマーケティングの時代へ本格的に突入し、各分野のプロフェッショナルが集結して、次のマーケティングスタンダードをつくるフェーズへ。
-統合マーケティングを実現し、世界ではまだまだ遅れていると言われる日本のマーケティング</p>
-                                                    <table class="table-job">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 400万～1500万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">1日前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000x9PF9/recruit?j=ff87f894172557eb"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0910000000GWbg" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">アマゾンジャパン合同会社</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="アマゾンジャパン合同会社のロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/7989-468d6effe8ab24ceef1af713d511c1e8.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/7989-468d6effe8ab24ceef1af713d511c1e8.png 1x, https://image.vorkers.com/resize/105x-/logo/company/7989-468d6effe8ab24ceef1af713d511c1e8.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/7989-468d6effe8ab24ceef1af713d511c1e8.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star9"></span>
-    <span class="icon-star icon-star-big icon-star0"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                3.90
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0910000000GWbg"></span>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000vArK5"></span>
         </div>
                 </div>
     <p class="f-l lh-high">インターネット業界</p>
@@ -1669,11 +918,11 @@ html_doc = """
         <div class="o-h p-l">
             <div class="o-h ml-5">
                 <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">ITコンサルタント・システムコンサルタント</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
                     </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0910000000GWbg/recruit?j=23e4b4cfc22a1ff6"
+                    <a class="gtm_agent pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000vArK5/recruit_agent?j=316b1e710f579355f0"
                        target="_blank">
-                        <span class="pcIcon-blank_border">Partner Success Manager, アマゾンビジネス事業本部</span>
+                        <span class="pcIcon-blank_border">【リモート】サーバーサイドエンジニア／404597504</span>
                     </a>
                 </h5>
             </div>
@@ -1682,442 +931,24 @@ html_doc = """
     <div class="pl-25 pb-20 pr-25">
         <div class="mt-20">
                                     <div class="o-h">
-                                                    <p class="jobListJobDescription">Amazon Businessは、2017年9月20日に日本でローンチした事業で、企業向け購買ソリューションの開発、提供をミッションとしています。
-Amazonの豊富な品揃え、利便性はそのままに、請求書払いなどの法人・個人事業主のニーズに対応した新しいサービスを提供しています。
+                                                    <p class="jobListJobDescription">…びCMSの機能開発、改善を行います。
 
-本事業部では、パートナー企業様と共にシステム連携（主に大企業の購買システムとAmazon Businessをシステム的に連携し、購買を行う仕組み）にも取り組んんでいます。
-システム連携に関する詳細はこちら をご覧くださ</p>
+＜具体的には＞
+・CMSおよびネイティブアプリ向けAPIの開発（PHP、<b>Golang</b>）
+・コンテンツ管理画面（CMS）のフロントエンド実装（TypeScript,、Nuxt.js／Vue.js）
+・安定的にサービスを提供できるための改善
+・クライアントからの要望に応じた機能開発 ・新しい技術の検証や活用、サイトパフォーマンスのチューニング等
+・サービスの品質向上や業務効率化のための提案、実施
+
+◇◆開発環境・体制について◆◇
+既存システムの技術スタックに縛</p>
                                                     <table class="table-job">
                                                     <tr>
                                 <th class="table-job_tableHeader pt-10 pb-10">
                                     給与
                                 </th>
                                 <td class="table-job_tableData pt-10 pb-10">
-                                    年収 1200万～1800万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">19時間前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0910000000GWbg/recruit?j=23e4b4cfc22a1ff6"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0910000000Frw1" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">株式会社ベルパーク</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="ベルパークのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/3604-a453757d0130f1d0e26871a07267a1bb.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/3604-a453757d0130f1d0e26871a07267a1bb.png 1x, https://image.vorkers.com/resize/105x-/logo/company/3604-a453757d0130f1d0e26871a07267a1bb.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/3604-a453757d0130f1d0e26871a07267a1bb.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star0"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.01
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0910000000Frw1"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">小売（百貨店・専門・CVS・量販店）業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">カウンターセールス・内勤営業</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0910000000Frw1/recruit?j=a563b8750b9698c5"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">モバイルアドバイザー（正社員：関東一都三県※勤務地希望お聞きします！）</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                    <div class="f-r w-280 backgroundLightGray t-c">
-                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/3604/job_offer/21913.jpg" class="max-h-225 max-w-280" alt="">
-                    </div>
-                                                    <p class="jobListJobDescription w-650">【業務内容】
-・カウンター業務
-お客さまのニーズに適したプランやサービスのご提案、操作方法の案内や使用方法のご提案をしていただきます。
-※携帯電話の新規、機種変更、修理、情報変更などの基本業務
-・店舗運営
-販売戦略の立案や人材の育成など、マネジメントを中心とした幅広い業務を行っていただきます。
-※店長職⇒売上管理、シフト管理、商品管理など
-先々は複数のショップ運営と地域責任者をおまかせします。
-培って来たノウハウを存分に発揮して人材の育成、店舗の発展、地域シェアの向上をお願いします。
-
-【弊社の</p>
-                                                    <table class="table-job w-650">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    月収 19万～32.2万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都、神奈川県、埼玉県、千葉県
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート不可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">1日前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0910000000Frw1/recruit?j=a563b8750b9698c5"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0910000000G7Hg" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">P&amp;Gジャパン合同会社</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="P&amp;Gジャパン合同会社のロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/7871-44a9bf25859e2cff5c90d7087231cb7c.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/7871-44a9bf25859e2cff5c90d7087231cb7c.png 1x, https://image.vorkers.com/resize/105x-/logo/company/7871-44a9bf25859e2cff5c90d7087231cb7c.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/7871-44a9bf25859e2cff5c90d7087231cb7c.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star6"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.62
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0910000000G7Hg"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">日用品、化粧品業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">財務・会計コンサルタント</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0910000000G7Hg/recruit?j=e0096fd748d153fa"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">経営管理　ファイナンシャルアナリスト【既卒者採用】</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                                    <p class="jobListJobDescription">このポジションは、ファイナンス（経営管理部門）部門は株主・経営者の観点に立ち、収益性の高いビジネスモデル・健全な財務戦略を立案し、事業活動の収益を長期的に最大化することをミッションとしている職種です。ブランドを超え、開発から生産、販売にいたるまで全ての事業活動におけるオプション分析を通じて、事業部全体における意思決定をリードします。
-また、常にグローバルのベストインクラスの分析、もしくは標準化したプロセスにアクセスできるので、経理・財務・ファイナンスのバックグラウンドがなくても、１からスキルを身</p>
-                                                    <table class="table-job">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 600万～800万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    兵庫県
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">1日前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0910000000G7Hg/recruit?j=e0096fd748d153fa"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0910000000G1yx" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">日本アイ・ビー・エム株式会社（IBM）</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="日本アイ・ビー・エム（IBM）のロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png 1x, https://image.vorkers.com/resize/105x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star1"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.08
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0910000000G1yx"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">ITコンサルタント・システムコンサルタント</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0910000000G1yx/recruit?j=d5bb689e0087f25f"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">【金融系クライアント担当】戦略コンサルタント/ビジネスコンサルタント（業務・データ）</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                                    <p class="jobListJobDescription">■会社について－Be essential－社会やお客様にとってかけがえのない存在に－
-当社は、世の中の困難な課題をITを使って解決しており、様々な分野で貢献しています。
-金融、製造などの民間企業から、病院、学校といった公的機関に至るまで、変革を求めるすべての組織が、当社のお客様です。
-
-100年以上にわたり、小売から金融、スポーツ、宇宙産業にいたるまで、さまざまな領域で
-世界を変えるイノベーションを次々に起こしてきた当社は、米国特許取得数トップクラスを獲得するなど
-確かな実績に裏付けられた世界有</p>
-                                                    <table class="table-job">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 700万～2000万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">16時間前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0910000000G1yx/recruit?j=d5bb689e0087f25f"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0C1000000skF3Y" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">株式会社ギャプライズ</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="ギャプライズのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/53551-0fdf53b55e106578cd6179774c3b95a0.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/53551-0fdf53b55e106578cd6179774c3b95a0.png 1x, https://image.vorkers.com/resize/105x-/logo/company/53551-0fdf53b55e106578cd6179774c3b95a0.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/53551-0fdf53b55e106578cd6179774c3b95a0.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star0"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.01
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000skF3Y"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">インターネット業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">代理店営業</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000skF3Y/recruit?j=adedf1a1dda9eeec"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">カスタマーサクセス（海外最先端SaaS：Contentsquare、Optimizely、ABTasty、新規プロダクト）</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                    <div class="f-r w-280 backgroundLightGray t-c">
-                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/53551/job_offer/21873.jpg" class="max-h-225 max-w-280" alt="">
-                    </div>
-                                                    <p class="jobListJobDescription w-650">≪業務内容≫
-主に大手企業の販売促進やマーケティング部門を顧客として、デジタル顧客体験分析、ABテスティング、パーソナライゼーション、レコメンデーションなどの様々なSaaS型ITソリューションを活用し、
-顧客のWebマーケティングにおける事業課題を解決するカスタマーサクセスとしてご活躍いただきます。
-
-ギャプライズで取り扱うITソリューションは主に海外で開発されたものがメインのため、海外ビジネスパートナーとも連携をしながら業務を進めていただきます。
-※必要に応じて通訳が入りますので英語能力は必須</p>
-                                                    <table class="table-job w-650">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 500万～700万円
+                                    年収 500万〜800万円
                                 </td>
                             </tr>
                                                     <tr>
@@ -2141,7 +972,7 @@ Amazonの豊富な品揃え、利便性はそのままに、請求書払いな�
         </div>
     </div>
     <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">16時間前</p>        <ul>
+        <p class="jobListBody_date">11日前</p>        <ul>
             <li class="d-i mr-20">
                                                             <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
        class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
@@ -2150,7 +981,7 @@ Amazonの豊富な品揃え、利便性はそのままに、請求書払いな�
 
             </li>
             <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000skF3Y/recruit?j=adedf1a1dda9eeec"
+                                <a class="gtm_agent button button-usuallyBlue fs-16 w-250" href="/a0C1000000vArK5/recruit_agent?j=316b1e710f579355f0"
                    target="_blank"><span
                             class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
             </li>
@@ -2162,15 +993,15 @@ Amazonの豊富な品揃え、利便性はそのままに、請求書払いな�
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
         <h4>
-                        <a href="/company.php?m_id=a0910000000G1yx" target="_blank"
+                        <a href="/company.php?m_id=a0C1000000lN4kl" target="_blank"
                class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
                data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
                data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">日本アイ・ビー・エム株式会社（IBM）</span>
+                <span class="pcIcon-blank_border">GMOフィナンシャルホールディングス株式会社</span>
             </a>
         </h4>
         <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="日本アイ・ビー・エム（IBM）のロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png 1x, https://image.vorkers.com/resize/105x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png 2x">
+            <img class="companyLogoImage-space" alt="GMOフィナンシャルホールディングスのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/19444-8a32f14071518a648b160d51c6d1ba74.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/19444-8a32f14071518a648b160d51c6d1ba74.png 1x, https://image.vorkers.com/resize/105x-/logo/company/19444-8a32f14071518a648b160d51c6d1ba74.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/19444-8a32f14071518a648b160d51c6d1ba74.png 2x">
         </div>
     </div>
     <div class="pt-5">
@@ -2178,29 +1009,29 @@ Amazonの豊富な品揃え、利便性はそのままに、請求書払いな�
             <p class="totalEvaluation_item v-m">
                     <span class="icon-star icon-star-big icon-star10"></span>
     <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star1"></span>
+    <span class="icon-star icon-star-big icon-star9"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
 
             </p>
             <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.08
+                2.86
             </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0910000000G1yx"></span>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000lN4kl"></span>
         </div>
                 </div>
-    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+    <p class="f-l lh-high">商品取引業界</p>
 </div>
 
     <div class="pt-25 pr-25 pl-25">
         <div class="o-h p-l">
             <div class="o-h ml-5">
                 <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">ITコンサルタント・システムコンサルタント</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
                     </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0910000000G1yx/recruit?j=d0998f6a8d4be5b4"
+                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000lN4kl/recruit?j=c3619383a9fd902c"
                        target="_blank">
-                        <span class="pcIcon-blank_border">【金融系クライアント担当】ITコンサルタント・PM</span>
+                        <span class="pcIcon-blank_border">オープン・エントリー（バックエンドエンジニア）</span>
                     </a>
                 </h5>
             </div>
@@ -2209,20 +1040,24 @@ Amazonの豊富な品揃え、利便性はそのままに、請求書払いな�
     <div class="pl-25 pb-20 pr-25">
         <div class="mt-20">
                                     <div class="o-h">
-                                                    <p class="jobListJobDescription">■会社について－Be essential－社会やお客様にとってかけがえのない存在に－
-当社は、世の中の困難な課題をITを使って解決しており、様々な分野で貢献しています。
-金融、製造などの民間企業から、病院、学校といった公的機関に至るまで、変革を求めるすべての組織が、当社のお客様です。
+                                                    <p class="jobListJobDescription">…お待ちしております。
 
-100年以上にわたり、小売から金融、スポーツ、宇宙産業にいたるまで、さまざまな領域で
-世界を変えるイノベーションを次々に起こしてきた当社は、米国特許取得数トップクラスを獲得するなど
-確かな実績に裏付けられた世界有</p>
+・技術検証、選定
+・アプリケーションの設計、開発、テスト（開発エンジニア）
+・Java、<b>Golang</b>を使った金融取引システムの開発
+・システムのアラートや問合せ調査／障害対応
+
+また、経験・能力に応じてプレーイングマネージャーとして以下を担当。
+・ビジネス要求の分析（ビジネス部門との折衝）
+・品質、運用保守等の観点も踏まえたシステム要件の取りまとめ（開発案件のマネジメント）
+・業務の効率化／自動化の推進（CI/CD環境を含む開発環境の維持管理、SETによる品質維持管理）</p>
                                                     <table class="table-job">
                                                     <tr>
                                 <th class="table-job_tableHeader pt-10 pb-10">
                                     給与
                                 </th>
                                 <td class="table-job_tableData pt-10 pb-10">
-                                    年収 700万～2000万円
+                                    年収 500万～1200万円
                                 </td>
                             </tr>
                                                     <tr>
@@ -2238,7 +1073,7 @@ Amazonの豊富な品揃え、利便性はそのままに、請求書払いな�
                                     リモートワーク
                                 </th>
                                 <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
+                                    リモート不可
                                 </td>
                             </tr>
                                             </table>
@@ -2246,7 +1081,7 @@ Amazonの豊富な品揃え、利便性はそのままに、請求書払いな�
         </div>
     </div>
     <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">17時間前</p>        <ul>
+                <ul>
             <li class="d-i mr-20">
                                                             <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
        class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
@@ -2255,7 +1090,7 @@ Amazonの豊富な品揃え、利便性はそのままに、請求書払いな�
 
             </li>
             <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0910000000G1yx/recruit?j=d0998f6a8d4be5b4"
+                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000lN4kl/recruit?j=c3619383a9fd902c"
                    target="_blank"><span
                             class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
             </li>
@@ -2267,15 +1102,15 @@ Amazonの豊富な品揃え、利便性はそのままに、請求書払いな�
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
         <h4>
-                        <a href="/company.php?m_id=a0910000000G1yx" target="_blank"
+                        <a href="/company.php?m_id=a0C10000011ECFk" target="_blank"
                class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
                data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
                data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">日本アイ・ビー・エム株式会社（IBM）</span>
+                <span class="pcIcon-blank_border">アルサーガパートナーズ株式会社</span>
             </a>
         </h4>
         <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="日本アイ・ビー・エム（IBM）のロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png 1x, https://image.vorkers.com/resize/105x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/6612-f9c52b101551fdb798d29950560a0f40.png 2x">
+            <img class="companyLogoImage-space" alt="アルサーガパートナーズのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/77462-738a12f6e8f6db188cd50273d52824a9.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/77462-738a12f6e8f6db188cd50273d52824a9.png 1x, https://image.vorkers.com/resize/105x-/logo/company/77462-738a12f6e8f6db188cd50273d52824a9.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/77462-738a12f6e8f6db188cd50273d52824a9.png 2x">
         </div>
     </div>
     <div class="pt-5">
@@ -2283,539 +1118,15 @@ Amazonの豊富な品揃え、利便性はそのままに、請求書払いな�
             <p class="totalEvaluation_item v-m">
                     <span class="icon-star icon-star-big icon-star10"></span>
     <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star1"></span>
+    <span class="icon-star icon-star-big icon-star9"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
 
             </p>
             <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.08
+                2.90
             </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0910000000G1yx"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">サーバー設計・構築</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0910000000G1yx/recruit?j=a7c85bf1a1897250"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">【金融系クライアント担当】PM・アーキテクト・エンジニア（アプリ・インフラ）</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                                    <p class="jobListJobDescription">■会社について－Be essential－社会やお客様にとってかけがえのない存在に－
-当社は、世の中の困難な課題をITを使って解決しており、様々な分野で貢献しています。
-金融、製造などの民間企業から、病院、学校といった公的機関に至るまで、変革を求めるすべての組織が、当社のお客様です。
-
-100年以上にわたり、小売から金融、スポーツ、宇宙産業にいたるまで、さまざまな領域で
-世界を変えるイノベーションを次々に起こしてきた当社は、米国特許取得数トップクラスを獲得するなど
-確かな実績に裏付けられた世界有</p>
-                                                    <table class="table-job">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 700万～2000万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">17時間前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0910000000G1yx/recruit?j=a7c85bf1a1897250"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0C1000000sgO4l" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">freee株式会社</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="freeeのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/51865-94e6e349660ee65984029c0b9353d078.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/51865-94e6e349660ee65984029c0b9353d078.png 1x, https://image.vorkers.com/resize/105x-/logo/company/51865-94e6e349660ee65984029c0b9353d078.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/51865-94e6e349660ee65984029c0b9353d078.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star3"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.29
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000sgO4l"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">PR・広告宣伝・販促</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000sgO4l/recruit?j=8200db412d5c90f6"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">freeeグループの広報スペシャリスト</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                    <div class="f-r w-280 backgroundLightGray t-c">
-                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/51865/job_offer/21997.jpg" class="max-h-225 max-w-280" alt="">
-                    </div>
-                                                    <p class="jobListJobDescription w-650">【ミッション】
-今回は広報業務の経験有無はあえて一切問わないポジションです。
-
-弊社は「スモールビジネスを、世界の主役に。」をミッションに掲げ事業を通じた社会変革に取り組んでいます。このミッションを実現することが社会にどのような良いインパクトを与えるのかストーリーとして世の中に伝えることで、主に自社ビジネス領域における社会意識の変革をドライブすることをミッションにするポジションのため広報経験よりもこのミッションの取り組みを一緒に強い思いをもって取り組んでいただける方を募集しています。
-
-
-【業務</p>
-                                                    <table class="table-job w-650">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 500万～750万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">18時間前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000sgO4l/recruit?j=8200db412d5c90f6"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0910000000G33n" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">アクセンチュア株式会社</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="アクセンチュアのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/7856-efc501d46c922cd5b0effdae6866ce80.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/7856-efc501d46c922cd5b0effdae6866ce80.png 1x, https://image.vorkers.com/resize/105x-/logo/company/7856-efc501d46c922cd5b0effdae6866ce80.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/7856-efc501d46c922cd5b0effdae6866ce80.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star3"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.32
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0910000000G33n"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">コンサルティング、シンクタンク業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">マーケティングリサーチ</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0910000000G33n/recruit?j=353101002cdad37c"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">【&#039;Accenture Research Lead】ビジネスをけん引するリサーチポジション</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                                    <p class="jobListJobDescription">アクセンチュアは、「ストラテジー & コンサルティング」「インタラクティブ」「テクノロジー」「オペレーションズ」の4つの領域でサービスを提供する総合コンサルティング企業です。
-あらゆる業界や業務プロセスに関する専門知識と技術力を背景に、ビジネスとテクノロジーの新しい動向をとらえ、世界中でお客様を支援しています。</p>
-                                                    <table class="table-job">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 500万～899万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都、神奈川県
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">23時間前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0910000000G33n/recruit?j=353101002cdad37c"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0910000000G33n" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">アクセンチュア株式会社</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="アクセンチュアのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/7856-efc501d46c922cd5b0effdae6866ce80.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/7856-efc501d46c922cd5b0effdae6866ce80.png 1x, https://image.vorkers.com/resize/105x-/logo/company/7856-efc501d46c922cd5b0effdae6866ce80.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/7856-efc501d46c922cd5b0effdae6866ce80.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star3"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.32
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0910000000G33n"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">コンサルティング、シンクタンク業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0910000000G33n/recruit?j=92c43058583115b8"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">ソリューション・エンジニア（ITS-IES）</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                                    <p class="jobListJobDescription">ソリューション・エンジニアは、テクノロジーコンサルティング本部に所属し、ＩＴテクノロジーのスペシャリストとして、様々な企業の課題を解決するシステム企画・開発を上流工程から担い、お客様の事業変革からその実行までを支えています。
- 
-
-■ 概要
-・企業における基幹系および情報系の業務システムの、Web系のカスタムアプリケーションに関する要件定義、設計、構築、テスト、開発、保守、運用を一貫しておまかせします
-・主にWeb、基幹系のカスタム開発プロジェクトの業務アプリケーションチームやアプリケーション運</p>
-                                                    <table class="table-job">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 500万～2000万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都、大阪府
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">23時間前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0910000000G33n/recruit?j=92c43058583115b8"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0C1000000sgO4l" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">freee株式会社</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="freeeのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/51865-94e6e349660ee65984029c0b9353d078.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/51865-94e6e349660ee65984029c0b9353d078.png 1x, https://image.vorkers.com/resize/105x-/logo/company/51865-94e6e349660ee65984029c0b9353d078.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/51865-94e6e349660ee65984029c0b9353d078.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star3"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.29
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000sgO4l"></span>
-        </div>
-                </div>
-    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
-</div>
-
-    <div class="pt-25 pr-25 pl-25">
-        <div class="o-h p-l">
-            <div class="o-h ml-5">
-                <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">法人営業</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
-                    </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000sgO4l/recruit?j=cd5d0bea2fb8f90d"
-                       target="_blank">
-                        <span class="pcIcon-blank_border">会計SMBセールス（Mid Market担当）</span>
-                    </a>
-                </h5>
-            </div>
-        </div>
-    </div>
-    <div class="pl-25 pb-20 pr-25">
-        <div class="mt-20">
-                                    <div class="o-h">
-                                                    <p class="jobListJobDescription">freeeでは中堅規模向けに会計ソフトを中心に展開をしていましたが、一層のシェア拡大に向けてエンタープライズ領域への開拓を強化して参ります。
-
-本ポジションはエンタープライズ領域（セールス組織で最も規模の大きい従業員数の300名以上）のマーケットを専任で担当頂くセールススペシャリストの募集です。
-
-弊社の今後の拡大に向けてエンタープライズ領域の攻略は必須であり、まさに組織の立ち上げも進んでいる中で活躍いただける希少なポジションです。
-
-【業務内容詳細】
-●セールス
-・freeeが提供するプロダク</p>
-                                                    <table class="table-job">
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    給与
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    年収 650万～960万円
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    勤務地
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    東京都
-                                </td>
-                            </tr>
-                                                    <tr>
-                                <th class="table-job_tableHeader pt-10 pb-10">
-                                    リモートワーク
-                                </th>
-                                <td class="table-job_tableData pt-10 pb-10">
-                                    リモート可
-                                </td>
-                            </tr>
-                                            </table>
-                            </div>
-        </div>
-    </div>
-    <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">1日前</p>        <ul>
-            <li class="d-i mr-20">
-                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
-       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
-        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
-    </a>
-
-            </li>
-            <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000sgO4l/recruit?j=cd5d0bea2fb8f90d"
-                   target="_blank"><span
-                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
-            </li>
-        </ul>
-    </div>
-</article>
-                    
-<article class="break-word borderGray mt-50">
-        <div class="jobListHeader jobListHeader-jobSearch o-h">
-    <div class="o-h">
-        <h4>
-                        <a href="/company.php?m_id=a0C1000000Y0jZX" target="_blank"
-               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
-               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
-               data-_v-event-logger-multi>
-                <span class="pcIcon-blank_border">株式会社ユーザベース</span>
-            </a>
-        </h4>
-        <div class="jobCompanyLogoArea-header">
-            <img class="companyLogoImage-space" alt="ユーザベースのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/15576-c167695087aa0471f8607c7879f91432.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/15576-c167695087aa0471f8607c7879f91432.png 1x, https://image.vorkers.com/resize/105x-/logo/company/15576-c167695087aa0471f8607c7879f91432.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/15576-c167695087aa0471f8607c7879f91432.png 2x">
-        </div>
-    </div>
-    <div class="pt-5">
-        <div class="lh-1o3 mr-5 pb-5 d-ib">
-            <p class="totalEvaluation_item v-m">
-                    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star10"></span>
-    <span class="icon-star icon-star-big icon-star4"></span>
-
-            </p>
-            <p class="totalEvaluation_item fs-15 fw-b v-b">
-                4.39
-            </p>
-            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000Y0jZX"></span>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C10000011ECFk"></span>
         </div>
                 </div>
     <p class="f-l lh-high">インターネット業界</p>
@@ -2825,11 +1136,11 @@ Amazonの豊富な品揃え、利便性はそのままに、請求書払いな�
         <div class="o-h p-l">
             <div class="o-h ml-5">
                 <div>
-                                                                                                    <p class="darkgray mr-10 fw-b d-ib">その他（営業）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
                     </div><h5 class="fs-20 lh-1o5 mt-5">
-                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000Y0jZX/recruit?j=a724be39f9466fad"
+                    <a class="gtm_agent pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C10000011ECFk/recruit_agent?j=d444110b6d9a59cb26"
                        target="_blank">
-                        <span class="pcIcon-blank_border">SPEEDA CS-Ops</span>
+                        <span class="pcIcon-blank_border">【東京】インフラエンジニア</span>
                     </a>
                 </h5>
             </div>
@@ -2838,20 +1149,22 @@ Amazonの豊富な品揃え、利便性はそのままに、請求書払いな�
     <div class="pl-25 pb-20 pr-25">
         <div class="mt-20">
                                     <div class="o-h">
-                                    <div class="f-r w-280 backgroundLightGray t-c">
-                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/15576/job_offer/21916.jpg" class="max-h-225 max-w-280" alt="">
-                    </div>
-                                                    <p class="jobListJobDescription w-650">【CS-Ops Unitについて】
-CS-Opsユニットは、幅広い顧客データを活用し、司令塔として顧客状態に合わせた接点の創出を図り、Customer Sales Unitなど各カスタマーサクセスを担うユニットが「今」サポートすべき顧客に向き合える状態を作る組織です。
-
-元々CS-Opsユニットは昨年までCS-ISという名称で、チーム内のインサイドセールスの役割を担うユニットでした（設立の背景：SPEEDAの導入社数は既に1,900社を超え、導入いただいている企業様の業界や職種が非常に幅広いこと</p>
-                                                    <table class="table-job w-650">
+                                                    <p class="jobListJobDescription">…多様な案件をいただいております！
+言語・フレームワーク
+【 開発環境 】
+◆開発言語:PHP, Elixir, <b>Golang</b>
+◆フレームワーク:Laravel, Phoenix
+◆DB:MySQL
+◆インフラ:AWS
+◆ツール:Docker,Terraform,Git
+◆OS:Linux</p>
+                                                    <table class="table-job">
                                                     <tr>
                                 <th class="table-job_tableHeader pt-10 pb-10">
                                     給与
                                 </th>
                                 <td class="table-job_tableData pt-10 pb-10">
-                                    年収 550万～800万円
+                                    別途ご案内いたします。
                                 </td>
                             </tr>
                                                     <tr>
@@ -2875,7 +1188,7 @@ CS-Opsユニットは、幅広い顧客データを活用し、司令塔とし�
         </div>
     </div>
     <div class="t-c p-r mb-20">
-        <p class="jobListBody_date">18時間前</p>        <ul>
+        <p class="jobListBody_date">3日前</p>        <ul>
             <li class="d-i mr-20">
                                                             <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
        class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
@@ -2884,7 +1197,1642 @@ CS-Opsユニットは、幅広い顧客データを活用し、司令塔とし�
 
             </li>
             <li class="d-i">
-                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000Y0jZX/recruit?j=a724be39f9466fad"
+                                <a class="gtm_agent button button-usuallyBlue fs-16 w-250" href="/a0C10000011ECFk/recruit_agent?j=d444110b6d9a59cb26"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0910000000G2I3" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">株式会社ベイシア</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="ベイシアのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/7164-90a4ff2b226e92e2a8fbb6ad42846d07.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/7164-90a4ff2b226e92e2a8fbb6ad42846d07.png 1x, https://image.vorkers.com/resize/105x-/logo/company/7164-90a4ff2b226e92e2a8fbb6ad42846d07.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/7164-90a4ff2b226e92e2a8fbb6ad42846d07.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star9"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                2.85
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0910000000G2I3"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">小売（百貨店・専門・CVS・量販店）業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_agent pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0910000000G2I3/recruit_agent?j=aa4b7067c3d7538103"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">【リモート】アプリエンジニア（フルスタックエンジニア）／403798540</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                                    <p class="jobListJobDescription">…装、テスト、リリースまでのすべての工程に関わって頂きます。 
+
+環境：アプリ開発：Flutter
+バックエンド：<b>Golang</b>、CMS：React＋<b>Golang</b>、クラウド：AWS 
+
+＜同社独自の取り組み＞
+デジタル人材を迎えるために、独自の人事制度（1国2制度）を導入しています。従来の就業体系（総合職）と異なる、専門職独自の年間休日の改定とジョブ型給与テーブルを設計。フルリモートワークの推奨や、オフィスを表参道に新設するなどし、エンジニアの方が働きやすい仕組みを整えています。
+
+＜同社について＞</p>
+                                                    <table class="table-job">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 700万〜900万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    群馬県
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+        <p class="jobListBody_date">15日前</p>        <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_agent button button-usuallyBlue fs-16 w-250" href="/a0910000000G2I3/recruit_agent?j=aa4b7067c3d7538103"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0910000000FrzR" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">株式会社日立ソリューションズ</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="日立ソリューションズのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/3713-7a9a7b08a387f92ec0a9961dc257cdd2.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/3713-7a9a7b08a387f92ec0a9961dc257cdd2.png 1x, https://image.vorkers.com/resize/105x-/logo/company/3713-7a9a7b08a387f92ec0a9961dc257cdd2.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/3713-7a9a7b08a387f92ec0a9961dc257cdd2.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star5"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                3.54
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0910000000FrzR"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_agent pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0910000000FrzR/recruit_agent?j=9b37e9861793295875"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">■【横浜】日立を代表するオープンミドルウェアの製品開発＜統合管理ソリューション部＞</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                                    <p class="jobListJobDescription">当社は、日立グループのITセクターの中核を担う企業として、人々の社会生活や企業活動を支える最先端の技術や製品、サービスを柔軟に組み合わせたソリューションを展開しております。今回募集する部門は、日立を代表するオープンミドルウェア製品の統合管理領域の製品開発をミッションとしています。日本のDX化、デジタルシフト進み、従来型のオンプレ環境型製品が減少し、クラウドシフトが鮮明になっています。IT基盤の進化に合わせた製品開発が急務となっており、組織強化を行なうための採用を実施します。
+携わっていただくミド</p>
+                                                    <table class="table-job">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 450万〜800万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    神奈川県
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+        <p class="jobListBody_date">16日前</p>        <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_agent button button-usuallyBlue fs-16 w-250" href="/a0910000000FrzR/recruit_agent?j=9b37e9861793295875"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C1000001Nl3PQ" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">SEQSENSE株式会社</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="SEQSENSEのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/151052-3287f885841b8875d696c69f816ea134.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/151052-3287f885841b8875d696c69f816ea134.png 1x, https://image.vorkers.com/resize/105x-/logo/company/151052-3287f885841b8875d696c69f816ea134.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/151052-3287f885841b8875d696c69f816ea134.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star2"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                3.18
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000001Nl3PQ"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">機械関連業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_agent pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000001Nl3PQ/recruit_agent?j=003d75573e0cb885b7"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">■【東京】バックエンドエンジニア＜社会インフラに実装する最先端の自律移動型ロボット開発＞</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                                    <p class="jobListJobDescription">…ド開発◆Ruby on Rails、Python、PostgreSQL、Redisを利用したWebAPI開発
+◆<b>Golang</b>、gRPCを利用した利用した非同期処理システムやサービス間通信システムの開発
+※明治大学教授発のスタートアップ企業／世界でも最先端の技術を持つ精鋭集団／人口減少やオリンピックを背景に警備ロボットの需要急拡大中／「実社会の役に立つロボットを世の中に」という熱い社員たちの想い／ロボットと人間の共存を実現できる仕事へ／三菱地所、TIS等からも出資を受ける注目企業の中核業務</p>
+                                                    <table class="table-job">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 600万〜1000万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    東京都
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+        <p class="jobListBody_date">16日前</p>        <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_agent button button-usuallyBlue fs-16 w-250" href="/a0C1000001Nl3PQ/recruit_agent?j=003d75573e0cb885b7"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C1000000shAEH" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">株式会社スマートドライブ</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="スマートドライブのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/52037-17dc48d02a2676713cd49044d745f591.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/52037-17dc48d02a2676713cd49044d745f591.png 1x, https://image.vorkers.com/resize/105x-/logo/company/52037-17dc48d02a2676713cd49044d745f591.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/52037-17dc48d02a2676713cd49044d745f591.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star1"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                3.09
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000shAEH"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_agent pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000shAEH/recruit_agent?j=9122155249d853c8d7"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">■【東京】バックエンドエンジニア＜車社会の未来を変える事業に貢献/モビリティテックベンチャー＞</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                                    <p class="jobListJobDescription"><b>Golang</b>、RailsによるAPIサーバーの開発・運用、各種非同期処理部分の開発・運用をメインの業務としてご担当頂きます。◆DataPlatform業務…自社／3rdparty問わず、様々なIoTデバイスから最初にデータを受け取る部分に始まり、集めたデータを正確にストアしつつ、さまざまな補正処理や解析処理のフローを実行しています。日々増加するデータを適切に処理しつづけること、また、将来を見据えた継続的なアーキテクチャのリデザイン、よりよいコスト・パフォーマンスな技術をリサーチ・選定し続けていた</p>
+                                                    <table class="table-job">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 500万〜900万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    東京都
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+        <p class="jobListBody_date">16日前</p>        <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_agent button button-usuallyBlue fs-16 w-250" href="/a0C1000000shAEH/recruit_agent?j=9122155249d853c8d7"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C3000000EoxL9" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">AZAPA株式会社</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="AZAPAのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/23072-f088691525d2871352c2954cad1f1016.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/23072-f088691525d2871352c2954cad1f1016.png 1x, https://image.vorkers.com/resize/105x-/logo/company/23072-f088691525d2871352c2954cad1f1016.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/23072-f088691525d2871352c2954cad1f1016.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                2.98
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C3000000EoxL9"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_agent pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C3000000EoxL9/recruit_agent?j=823f389b0176a760cd"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">【リモート勤務可】Web開発エンジニア</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                                    <p class="jobListJobDescription">【業務】モビリティのUI/UXやコネクティッド領域、遠隔操作システムなどの開発【詳細】以下の何れかの業務を想定
+■ディスプレイ領域（車両内外問わず）のUX／UIシステム開発。顕在化していないニーズを深掘りしながら、クライアント企業の真の課題を紐解き、最適なUX／UIを提案し、スピード感を持って実装
+■モビリティ内部の情報（CANやセンサーデータ等）を取得しクラウド（主にAWS）へアップロードし、アップロードされたデータの視覚化（UX／UI）や、機械学習等を利用したデータの分析業務
+■モビリティの</p>
+                                                    <table class="table-job">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 500万〜1200万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    愛知県
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+        <p class="jobListBody_date">16日前</p>        <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_agent button button-usuallyBlue fs-16 w-250" href="/a0C3000000EoxL9/recruit_agent?j=823f389b0176a760cd"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C1000000qqgTo" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">株式会社モンスターラボ</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="モンスターラボのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png 1x, https://image.vorkers.com/resize/105x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star7"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                3.72
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000qqgTo"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000qqgTo/recruit?j=1b604ab0bfc73d0b"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">サービス開発ソリューションアーキテクト</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                    <div class="f-r w-280 backgroundLightGray t-c">
+                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/47620/job_offer/17938.png" class="max-h-225 max-w-280" alt="">
+                    </div>
+                                                    <p class="jobListJobDescription w-650">…X Blog
+
+■開発環境一例 
+フロントエンド：TypeScript, Javascript 
+バックエンド：<b>Golang</b>, Ruby, Node.js, Java, PHP 
+モバイル：Flutter, Kotlin, Swift 
+フレームワーク：React, Vue.js, Node.js, Ruby on rails, Laravel, Spring boot 
+パブリッククラウド：AWS, Azure, GCP 
+データベース：RDB, NoSQL 
+プロジェクト管理：JIRA, C</p>
+                                                    <table class="table-job w-650">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 560万～882万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    東京都
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    リモートワーク
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    リモートメイン
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+        <p class="jobListBody_date">21日前</p>        <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000qqgTo/recruit?j=1b604ab0bfc73d0b"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C1000000qqgTo" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">株式会社モンスターラボ</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="モンスターラボのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png 1x, https://image.vorkers.com/resize/105x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star7"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                3.72
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000qqgTo"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">品質管理・テスティング・QA</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000qqgTo/recruit?j=88e87409074f48aa"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">サービス開発QAリード/マネージャー</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                    <div class="f-r w-280 backgroundLightGray t-c">
+                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/47620/job_offer/17940.png" class="max-h-225 max-w-280" alt="">
+                    </div>
+                                                    <p class="jobListJobDescription w-650">…: GitHub
+
+■開発環境一例
+フロントエンド：TypeScript, Javascript
+バックエンド：<b>Golang</b>, Ruby, Node.js, Java, PHP
+モバイル：Flutter, Kotlin, Swift
+フレームワーク：React, Vue.js, Node.js, Ruby on rails, Laravel,Spring boot
+パブリッククラウド：AWS, Azure, GCP
+データベース：RDB, NoSQL
+デザイン：Figma, Adobe XD, </p>
+                                                    <table class="table-job w-650">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 600万～900万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    東京都
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    リモートワーク
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    リモートメイン
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+        <p class="jobListBody_date">21日前</p>        <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000qqgTo/recruit?j=88e87409074f48aa"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C1000000qqgTo" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">株式会社モンスターラボ</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="モンスターラボのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png 1x, https://image.vorkers.com/resize/105x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/47620-c35a54358a24441edfaeea3161e64cfa.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star7"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                3.72
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000qqgTo"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000qqgTo/recruit?j=80cf46313fa5a2b7"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">サービス開発テックリード：フルスタックエンジニア</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                    <div class="f-r w-280 backgroundLightGray t-c">
+                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/47620/job_offer/17951.png" class="max-h-225 max-w-280" alt="">
+                    </div>
+                                                    <p class="jobListJobDescription w-650">…英語力は不要です)
+
+■開発環境一例
+フロントエンド：TypeScript,Javascript
+バックエンド：<b>Golang</b>,Ruby,Node.js,Java,PHP
+モバイル：Flutter,Kotlin,Swift
+フレームワーク：React,Vue.js,Node.js,Ruby on rails,Laravel,Spring boot
+パブリッククラウド：AWS, Azure, GCP
+データベース　　：RDB, NoSQL
+プロジェクト管理：JIRA,Confluence, Back</p>
+                                                    <table class="table-job w-650">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 500万～900万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    東京都
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    リモートワーク
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    リモートメイン
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+        <p class="jobListBody_date">21日前</p>        <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000qqgTo/recruit?j=80cf46313fa5a2b7"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C1000000sgO4l" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">freee株式会社</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="freeeのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/51865-94e6e349660ee65984029c0b9353d078.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/51865-94e6e349660ee65984029c0b9353d078.png 1x, https://image.vorkers.com/resize/105x-/logo/company/51865-94e6e349660ee65984029c0b9353d078.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/51865-94e6e349660ee65984029c0b9353d078.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star3"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                4.29
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000sgO4l"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000sgO4l/recruit?j=8bd9fdba2ca1fa3e"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">クレジットカード事業開発エンジニア</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                    <div class="f-r w-280 backgroundLightGray t-c">
+                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/51865/job_offer/20960.jpg" class="max-h-225 max-w-280" alt="">
+                    </div>
+                                                    <p class="jobListJobDescription w-650">…d」の開発に携わっていただきます。
+
+PM・UXとチームを組み、プロダクト開発を行っていただきます（スクラム）
+<b>Golang</b> / Ruby on Rails / Reactを用いてバックエンド、フロントエンド、インフラなどを問わず、広くサービス開発に携わっていただきます
+グロースフェーズにあるプロダクトであり、ビジネスサイドからのフィードバックを受けながら、プロダクトマーケットフィットを目指して機能追加や改善を行っていただきます</p>
+                                                    <table class="table-job w-650">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 500万～1200万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    東京都
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+                <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000sgO4l/recruit?j=8bd9fdba2ca1fa3e"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C1000000xAV2w" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">ロゴスウェア株式会社</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="ロゴスウェアのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/68992-d8439c386b118c1a7ac509f82c5683ae.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/68992-d8439c386b118c1a7ac509f82c5683ae.png 1x, https://image.vorkers.com/resize/105x-/logo/company/68992-d8439c386b118c1a7ac509f82c5683ae.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/68992-d8439c386b118c1a7ac509f82c5683ae.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                2.99
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000xAV2w"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">社内SE</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_agent pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000xAV2w/recruit_agent?j=fd42a8dae8e1319772"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">バックエンドエンジニア【自社製品Libra・Platon】</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                                    <p class="jobListJobDescription">…同社は製品ごとに使用言語が異なりますが、主に以下のような技術を使って開発を進めています。
+
+言語：Python、<b>Golang</b>、PHP
+フレームワーク：Django（Python）
+DB ：MySQL、PostgreSQL
+サーバー：Linux
+■おすすめポイント
+◆同社は自社製品であるeラーニング、デジタルライブラリ、オンラインLIVEセミナー等のソフトウェアを企画・開発、販売しています。
+　あなたのアイディアが製品を創り、「企業の教育」を変えていきます。</p>
+                                                    <table class="table-job">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    別途ご案内いたします。
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    茨城県
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+        <p class="jobListBody_date">2日前</p>        <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_agent button button-usuallyBlue fs-16 w-250" href="/a0C1000000xAV2w/recruit_agent?j=fd42a8dae8e1319772"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C10000015KqfW" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">GROOVE X株式会社</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="GROOVE Xのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/118308-5af65fe90a1d5d26d376e292ed03ba6f.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/118308-5af65fe90a1d5d26d376e292ed03ba6f.png 1x, https://image.vorkers.com/resize/105x-/logo/company/118308-5af65fe90a1d5d26d376e292ed03ba6f.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/118308-5af65fe90a1d5d26d376e292ed03ba6f.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                3.02
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C10000015KqfW"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（制御・組込み系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="mark-gold mark-small mr-5 mb-5">NEW</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_agent pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C10000015KqfW/recruit_agent?j=52adfe857744174aec"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">サウンドエンジニア（家庭用ロボット／声の生成ソフトウェア開発）</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                                    <p class="jobListJobDescription">…・開発環境】
+・OS：Ubuntu(Linux)
+・開発言語：C++、Python3　※関連するソフトウェア: <b>Golang</b>、 JavaScript
+・データベース：Redis、BigQuery
+・インフラ：GCP、Docker
+・その他ツール：GitHub、Slack、CircleCI、ovice、 esa</p>
+                                                    <table class="table-job">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 450万〜1000万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    東京都
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+        <p class="jobListBody_date">3日前</p>        <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_agent button button-usuallyBlue fs-16 w-250" href="/a0C10000015KqfW/recruit_agent?j=52adfe857744174aec"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C1000000vBCPh" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">株式会社PKSHA Technology</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="PKSHA Technologyのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 1x, https://image.vorkers.com/resize/105x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star4"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                3.44
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000vBCPh"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000vBCPh/recruit?j=b5b6f4dc86381e4d"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">エンジニアリングマネージャー【AI SaaS】</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                    <div class="f-r w-280 backgroundLightGray t-c">
+                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/69457/job_offer/20046.png" class="max-h-225 max-w-280" alt="">
+                    </div>
+                                                    <p class="jobListJobDescription w-650">PKSHA Technologyは「未来のソフトウェアを形にする」をミッションに掲げています。
+2012年の創業以来、ミッションの達成に向けて2000を超える企業に160以上のアルゴリズム・AI SaaSを導入し、1日930万人以上のユーザーに利用されています。
+
+私達と一緒に、未来のソフトウエアを形にして、人とソフトウエアの共進化を進めていきたい、そのような方をお待ちしています。
+
+【仕事内容】
+PKSHA Technologyは、エンタープライズ企業のコールセンターに向けた自然言語処理/機械</p>
+                                                    <table class="table-job w-650">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 600万～1200万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    東京都
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    リモートワーク
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    リモート可
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+                <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000vBCPh/recruit?j=b5b6f4dc86381e4d"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C1000000vBCPh" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">株式会社PKSHA Technology</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="PKSHA Technologyのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 1x, https://image.vorkers.com/resize/105x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star4"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                3.44
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000vBCPh"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000vBCPh/recruit?j=f810587bf673c35b"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">SRE【AI SaaS】</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                    <div class="f-r w-280 backgroundLightGray t-c">
+                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/69457/job_offer/20048.png" class="max-h-225 max-w-280" alt="">
+                    </div>
+                                                    <p class="jobListJobDescription w-650">PKSHA Technologyは「未来のソフトウェアを形にする」をミッションに掲げています。
+2012年の創業以来、ミッションの達成に向けて2000を超える企業に160以上のアルゴリズム・AI SaaSを導入し、1日930万人以上のユーザーに利用されています。
+
+私達と一緒に、未来のソフトウエアを形にして、人とソフトウエアの共進化を進めていきたい、そのような方をお待ちしています。
+
+【仕事内容】
+PKSHA Technologyは、エンタープライズ企業のコールセンターに向けた自然言語処理/機械</p>
+                                                    <table class="table-job w-650">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 600万～1200万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    東京都
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    リモートワーク
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    リモート可
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+                <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000vBCPh/recruit?j=f810587bf673c35b"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C1000000vBCPh" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">株式会社PKSHA Technology</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="PKSHA Technologyのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 1x, https://image.vorkers.com/resize/105x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star4"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                3.44
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000vBCPh"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000vBCPh/recruit?j=295727bce1f429ef"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">ソフトウェアエンジニア【AlgorithmSolution】</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                    <div class="f-r w-280 backgroundLightGray t-c">
+                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/69457/job_offer/20050.png" class="max-h-225 max-w-280" alt="">
+                    </div>
+                                                    <p class="jobListJobDescription w-650">PKSHA Technologyは「未来のソフトウェアを形にする」をミッションに掲げています。
+2012年の創業以来、ミッションの達成に向けて2000を超える企業に160以上のアルゴリズム・AI SaaSを導入し、1日930万人以上のユーザーに利用されています。
+
+私達と一緒に、未来のソフトウエアを形にして、人とソフトウエアの共進化を進めていきたい、そのような方をお待ちしています。
+
+【仕事内容】
+多岐に渡る大手企業に、自然言語処理・画像認識・音声認識・予測・数理最適化等の領域で、機械学習・深層</p>
+                                                    <table class="table-job w-650">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 600万～1200万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    東京都
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    リモートワーク
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    リモート可
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+                <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000vBCPh/recruit?j=295727bce1f429ef"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C1000000vBCPh" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">株式会社PKSHA Technology</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="PKSHA Technologyのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 1x, https://image.vorkers.com/resize/105x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star4"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                3.44
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000vBCPh"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000vBCPh/recruit?j=c12cd7a1fe21350b"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">ソフトウェアエンジニア【AI SaaS】</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                    <div class="f-r w-280 backgroundLightGray t-c">
+                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/69457/job_offer/20052.png" class="max-h-225 max-w-280" alt="">
+                    </div>
+                                                    <p class="jobListJobDescription w-650">PKSHA Technologyは「未来のソフトウェアを形にする」をミッションに掲げています。
+2012年の創業以来、ミッションの達成に向けて2000を超える企業に160以上のアルゴリズム・AI SaaSを導入し、1日930万人以上のユーザーに利用されています。
+
+私達と一緒に、未来のソフトウエアを形にして、人とソフトウエアの共進化を進めていきたい、そのような方をお待ちしています。
+
+【仕事内容】
+PKSHA Technologyは、エンタープライズ企業のコールセンターに向けた自然言語処理/機械</p>
+                                                    <table class="table-job w-650">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 600万～1200万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    東京都
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    リモートワーク
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    リモート可
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+                <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000vBCPh/recruit?j=c12cd7a1fe21350b"
+                   target="_blank"><span
+                            class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
+            </li>
+        </ul>
+    </div>
+</article>
+                    
+<article class="break-word borderGray mt-50">
+        <div class="jobListHeader jobListHeader-jobSearch o-h">
+    <div class="o-h">
+        <h4>
+                        <a href="/company.php?m_id=a0C1000000vBCPh" target="_blank"
+               class="pcIcon-after pcIcon-54-after pcIcon-blank pcIcon-forShowReview fs-18"
+               data-_v-event-logger-key="job_search_result_click" data-_v-event-logger-parameter="company"
+               data-_v-event-logger-multi>
+                <span class="pcIcon-blank_border">株式会社PKSHA Technology</span>
+            </a>
+        </h4>
+        <div class="jobCompanyLogoArea-header">
+            <img class="companyLogoImage-space" alt="PKSHA Technologyのロゴ" src="https://image.vorkers.com/resize/70x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png" srcset="https://image.vorkers.com/resize/70x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 1x, https://image.vorkers.com/resize/105x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 1.5x, https://image.vorkers.com/resize/140x-/logo/company/69457-f9214a143a7683eb45fab3d9fb60a2a5.png 2x">
+        </div>
+    </div>
+    <div class="pt-5">
+        <div class="lh-1o3 mr-5 pb-5 d-ib">
+            <p class="totalEvaluation_item v-m">
+                    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star10"></span>
+    <span class="icon-star icon-star-big icon-star4"></span>
+    <span class="icon-star icon-star-big icon-star0"></span>
+
+            </p>
+            <p class="totalEvaluation_item fs-15 fw-b v-b">
+                3.44
+            </p>
+            <span class="jsLabelKeywordMatching p-r v-b ml-5" data-master-id="a0C1000000vBCPh"></span>
+        </div>
+                </div>
+    <p class="f-l lh-high">SIer、ソフト開発、システム運用業界</p>
+</div>
+
+    <div class="pt-25 pr-25 pl-25">
+        <div class="o-h p-l">
+            <div class="o-h ml-5">
+                <div>
+                                                                                                    <p class="darkgray mr-10 fw-b d-ib">システム開発（WEB・オープン系）</p><ul class="d-ib"><li class="mark-grayBorder nowrap mr-5 mb-5">正社員</li><li class="d-i mb-5 ml-5 v-m"><img class="v-t" src="https://assets.vorkers.com/images/common/openwork_apply.svg" width="100" height="18" alt="OpenWork応募"></li></ul>
+                    </div><h5 class="fs-20 lh-1o5 mt-5">
+                    <a class="gtm_vr pcIcon-after pcIcon-54-after pcIcon-blank" href="/a0C1000000vBCPh/recruit?j=6266c3e70d03671b"
+                       target="_blank">
+                        <span class="pcIcon-blank_border">ソフトウェアエンジニア【MaaS】</span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="pl-25 pb-20 pr-25">
+        <div class="mt-20">
+                                    <div class="o-h">
+                                    <div class="f-r w-280 backgroundLightGray t-c">
+                                                <img src="https://image.vorkers.com/resize/643x909/recruiting/69457/job_offer/20054.png" class="max-h-225 max-w-280" alt="">
+                    </div>
+                                                    <p class="jobListJobDescription w-650">PKSHA Technologyは「未来のソフトウェアを形にする」をミッションに掲げています。
+2012年の創業以来、ミッションの達成に向けて2000を超える企業に160以上のアルゴリズム・AI SaaSを導入し、1日930万人以上のユーザーに利用されています。
+
+私達と一緒に、未来のソフトウエアを形にして、人とソフトウエアの共進化を進めていきたい、そのような方をお待ちしています。
+
+【仕事内容】
+MaaS領域におけるアルゴリズムの社会実装に向けてIoT機器の開発や、コンピュータビジョン技術・深</p>
+                                                    <table class="table-job w-650">
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    給与
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    年収 600万～1200万円
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    勤務地
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    東京都
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <th class="table-job_tableHeader pt-10 pb-10">
+                                    リモートワーク
+                                </th>
+                                <td class="table-job_tableData pt-10 pb-10">
+                                    リモート可
+                                </td>
+                            </tr>
+                                            </table>
+                            </div>
+        </div>
+    </div>
+    <div class="t-c p-r mb-20">
+                <ul>
+            <li class="d-i mr-20">
+                                                            <a href="javascript:void(0);" data-tooltip="気になる求人をリストに入れてまとめてチェックできます" data-_vmodal-type="b"
+       class="button button-jobBookmark jsTooltip jsLoginModalTrigger  fs-15" data-_v-event-logger-key=job_search_result_standard_click data-_v-event-logger-parameter=bookmark_job_offer_no_login data-_v-event-logger-multi>
+        <span class="pcIcon pcIcon-69 pcIcon-jobBookmark">気になる</span>
+    </a>
+
+            </li>
+            <li class="d-i">
+                                <a class="gtm_vr button button-usuallyBlue fs-16 w-250" href="/a0C1000000vBCPh/recruit?j=6266c3e70d03671b"
                    target="_blank"><span
                             class="pcIcon-after pcIcon-54-after pcIcon-blank">この求人を見る</span></a>
             </li>
@@ -2893,173 +2841,30 @@ CS-Opsユニットは、幅広い顧客データを活用し、司令塔とし�
 </article>
             <div class="mt-50 pb-20">
             <div class="paging">
-        <p class="d-ib mb-10">全53,317件中の1～25件</p>
+        <p class="d-ib mb-10">全109件中の1～25件</p>
     <ul class="d-ib">
                 <li class="d-i">
             <ol class="d-i">
                                                             <li class="paging_item"><span class="paging_item-current">1</span></li>
                                                                                 <li class="paging_item">
-                            <a href="/job_search_result?u=std&amp;page=2" class="paging_link-item">2</a>
+                            <a href="/job_search_result?kt=Golang&amp;u=std&amp;page=2" class="paging_link-item">2</a>
                         </li>
                                                                                 <li class="paging_item">
-                            <a href="/job_search_result?u=std&amp;page=3" class="paging_link-item">3</a>
+                            <a href="/job_search_result?kt=Golang&amp;u=std&amp;page=3" class="paging_link-item">3</a>
                         </li>
                                                                                 <li class="paging_item">
-                            <a href="/job_search_result?u=std&amp;page=4" class="paging_link-item">4</a>
+                            <a href="/job_search_result?kt=Golang&amp;u=std&amp;page=4" class="paging_link-item">4</a>
                         </li>
                                                                                 <li class="paging_item">
-                            <a href="/job_search_result?u=std&amp;page=5" class="paging_link-item">5</a>
-                        </li>
-                                                                                <li class="paging_item">
-                            <a href="/job_search_result?u=std&amp;page=6" class="paging_link-item">6</a>
-                        </li>
-                                                                                <li class="paging_item">
-                            <a href="/job_search_result?u=std&amp;page=7" class="paging_link-item">7</a>
-                        </li>
-                                                                                <li class="paging_item">
-                            <a href="/job_search_result?u=std&amp;page=8" class="paging_link-item">8</a>
-                        </li>
-                                                                                <li class="paging_item">
-                            <a href="/job_search_result?u=std&amp;page=9" class="paging_link-item">9</a>
-                        </li>
-                                                                                <li class="paging_item">
-                            <a href="/job_search_result?u=std&amp;page=10" class="paging_link-item">10</a>
+                            <a href="/job_search_result?kt=Golang&amp;u=std&amp;page=5" class="paging_link-item">5</a>
                         </li>
                                                 </ol>
         </li>
                     <li class="d-i">
-                <a href="/job_search_result?u=std&amp;page=2" class="paging_link-more">次へ</a>
+                <a href="/job_search_result?kt=Golang&amp;u=std&amp;page=2" class="paging_link-more">次へ</a>
             </li>
             </ul>
 </div>        </div></div>
-<h2 class="mt-30 fs-16 fw-n">条件を変更する</h2>
-<div class="box-20 mt-10 pt-0 pb-15">
-            <h3 class="mt-15">勤務地</h3>
-                                <ul class="o-h">
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=1&amp;u=std">北海道</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=2&amp;u=std">青森</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=3&amp;u=std">岩手</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=4&amp;u=std">宮城</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=5&amp;u=std">秋田</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=6&amp;u=std">山形</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=7&amp;u=std">福島</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=8&amp;u=std">茨城</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=9&amp;u=std">栃木</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=10&amp;u=std">群馬</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=11&amp;u=std">埼玉</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=12&amp;u=std">千葉</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=13&amp;u=std">東京</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=14&amp;u=std">神奈川</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=15&amp;u=std">新潟</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=16&amp;u=std">富山</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=17&amp;u=std">石川</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=18&amp;u=std">福井</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=19&amp;u=std">山梨</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=20&amp;u=std">長野</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=21&amp;u=std">岐阜</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=22&amp;u=std">静岡</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=23&amp;u=std">愛知</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=24&amp;u=std">三重</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=25&amp;u=std">滋賀</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=26&amp;u=std">京都</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=27&amp;u=std">大阪</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=28&amp;u=std">兵庫</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=29&amp;u=std">奈良</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=30&amp;u=std">和歌山</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=31&amp;u=std">鳥取</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=32&amp;u=std">島根</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=33&amp;u=std">岡山</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=34&amp;u=std">広島</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=35&amp;u=std">山口</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=36&amp;u=std">徳島</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=37&amp;u=std">香川</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=38&amp;u=std">愛媛</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=39&amp;u=std">高知</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=40&amp;u=std">福岡</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=41&amp;u=std">佐賀</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=42&amp;u=std">長崎</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=43&amp;u=std">熊本</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=44&amp;u=std">大分</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=45&amp;u=std">宮崎</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=46&amp;u=std">鹿児島</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=47&amp;u=std">沖縄</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?p=99&amp;u=std">海外</a></li>
-                            </ul>
-                                <h3 class="mt-15">職種</h3>
-                                <ul class="o-h">
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?o=550&amp;u=std">営業</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?o=500&amp;u=std">管理・事務</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?o=400&amp;u=std">経営・事業企画</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?o=450&amp;u=std">マーケティング</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?o=1&amp;u=std">ITエンジニア</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?o=50&amp;u=std">機械・電気・電子・半導体（技術職）</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?o=150&amp;u=std">化学・繊維・食品（技術職）</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?o=200&amp;u=std">建築・土木・設備（技術職）</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?o=250&amp;u=std">メディカル（専門職）</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?o=300&amp;u=std">金融（専門職）</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?o=320&amp;u=std">不動産（専門職）</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?o=350&amp;u=std">コンサルタント・専門職</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?o=600&amp;u=std">クリエイティブ</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?o=650&amp;u=std">サービス・小売・運輸・その他</a></li>
-                            </ul>
-                                <h3 class="mt-15">業界</h3>
-                                <ul class="o-h">
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?i=0001&amp;u=std">金融</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?i=0002&amp;u=std">コンサルティング・専門事務所</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?i=0003&amp;u=std">IT・通信・インターネット</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?i=0009&amp;u=std">メーカー・商社</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?i=0005&amp;u=std">メディカル</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?i=0004&amp;u=std">マスコミ・広告関連</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?i=0010&amp;u=std">サービス、小売、外食</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?i=0006&amp;u=std">生活インフラ、運輸、不動産、建設</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?i=0007&amp;u=std">行政機関、社団法人、非営利団体</a></li>
-                                    <li class="f-l mt-5 mr-15"><a href="/job_search_result?i=0012&amp;u=std">その他</a></li>
-                            </ul>
-                                <h3 class="mt-15">キーワード</h3>
-        <ul class="o-h">
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E8%8B%B1%E8%AA%9E&amp;u=std">英語</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E4%B8%AD%E5%9B%BD%E8%AA%9E&amp;u=std">中国語</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E3%82%A2%E3%83%97%E3%83%AA&amp;u=std">アプリ</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=Java&amp;u=std">Java</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=PHP&amp;u=std">PHP</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=Swift&amp;u=std">Swift</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E7%AC%AC%E4%BA%8C%E6%96%B0%E5%8D%92&amp;u=std">第二新卒</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E6%9C%AA%E7%B5%8C%E9%A8%93&amp;u=std">未経験</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E5%AD%A6%E6%AD%B4%E4%B8%8D%E5%95%8F&amp;u=std">学歴不問</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E4%BF%9D%E8%82%B2%E5%9C%92&amp;u=std">保育園</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E5%B9%BC%E7%A8%9A%E5%9C%92&amp;u=std">幼稚園</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E8%A8%AD%E5%82%99%E7%AE%A1%E7%90%86&amp;u=std">設備管理</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC&amp;u=std">タクシー</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E5%87%86%E7%9C%8B%E8%AD%B7%E5%B8%AB&amp;u=std">准看護師</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E4%BF%9D%E5%81%A5%E5%B8%AB&amp;u=std">保健師</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E6%8E%A5%E5%AE%A2&amp;u=std">接客</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E7%A9%BA%E6%B8%AF&amp;u=std">空港</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E8%96%AC%E5%B1%80&amp;u=std">薬局</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E5%A4%96%E8%B3%87%E7%B3%BB&amp;u=std">外資系</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E3%82%A2%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%BA%E3%83%A1%E3%83%B3%E3%83%88&amp;u=std">アミューズメント</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E4%BA%BA%E6%9D%90%E6%B4%BE%E9%81%A3&amp;u=std">人材派遣</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E9%85%8D%E9%81%94&amp;u=std">配達</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%98%E3%83%AB%E3%83%91%E3%83%BC&amp;u=std">ホームヘルパー</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%83%BC%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9&amp;u=std">カスタマーサービス</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E9%A3%B2%E9%A3%9F%E6%A5%AD&amp;u=std">飲食業</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E6%AD%AF%E7%A7%91%E8%A1%9B%E7%94%9F%E5%A3%AB&amp;u=std">歯科衛生士</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E9%9B%BB%E6%B0%97%E5%B7%A5%E4%BA%8B%E5%A3%AB&amp;u=std">電気工事士</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E6%A0%84%E9%A4%8A%E5%A3%AB&amp;u=std">栄養士</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E7%A4%BE%E4%BC%9A%E7%A6%8F%E7%A5%89%E5%A3%AB&amp;u=std">社会福祉士</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E7%AE%A1%E7%90%86%E6%A0%84%E9%A4%8A%E5%A3%AB&amp;u=std">管理栄養士</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E7%90%86%E5%AD%A6%E7%99%82%E6%B3%95%E5%A3%AB&amp;u=std">理学療法士</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E4%BD%9C%E6%A5%AD%E7%99%82%E6%B3%95%E5%A3%AB&amp;u=std">作業療法士</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E5%AE%85%E5%BB%BA%E5%A3%AB&amp;u=std">宅建士</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=MBA&amp;u=std">MBA</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%97%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC&amp;u=std">ファイナンシャルプランナー</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E7%B0%BF%E8%A8%98&amp;u=std">簿記</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=40%E4%BB%A3&amp;u=std">40代</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=50%E4%BB%A3&amp;u=std">50代</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E7%AE%A1%E7%90%86%E8%81%B7&amp;u=std">管理職</a></li>
-                            <li class="f-l mt-5 mr-15"><a href="/job_search_result?kt=%E5%85%AC%E5%8B%99%E5%93%A1&amp;u=std">公務員</a></li>
-                                </ul>
-    </div>
-
 
     <div class="goTop">
     <a href="#top" class="jsGoTopLink">▲ このページのTOPへ</a>
@@ -4765,7 +4570,7 @@ CS-Opsユニットは、幅広い顧客データを活用し、司令塔とし�
 <div class="t-c pt-30 jsModalContentBottom p-r">
     <dl class="modalWindow_counter">
         <dt class="colonListTerm">該当求人</dt>
-        <dd class="d-i"><span class="fw-b jsJobCount">53,317</span>件</dd>
+        <dd class="d-i"><span class="fw-b jsJobCount">109</span>件</dd>
     </dl>
     <button class="button button-usuallyBlue fs-20 w-280 jsCloseButton">職種を決定する</button>
 </div>
@@ -5220,7 +5025,7 @@ CS-Opsユニットは、幅広い顧客データを活用し、司令塔とし�
 <div class="t-c pt-30 jsModalContentBottom p-r">
     <dl class="modalWindow_counter">
         <dt class="colonListTerm">該当求人</dt>
-        <dd class="d-i"><span class="fw-b jsJobCount">53,317</span>件</dd>
+        <dd class="d-i"><span class="fw-b jsJobCount">109</span>件</dd>
     </dl>
     <button class="button button-usuallyBlue fs-20 w-280 jsCloseButton">勤務地を決定する</button>
 </div>
@@ -6092,7 +5897,7 @@ CS-Opsユニットは、幅広い顧客データを活用し、司令塔とし�
 <div class="t-c pt-30 jsModalContentBottom p-r">
     <dl class="modalWindow_counter">
         <dt class="colonListTerm">該当求人</dt>
-        <dd class="d-i"><span class="fw-b jsJobCount">53,317</span>件</dd>
+        <dd class="d-i"><span class="fw-b jsJobCount">109</span>件</dd>
     </dl>
     <button class="button button-usuallyBlue fs-20 w-280 jsCloseButton">業界を決定する</button>
 </div>
@@ -6437,9 +6242,15 @@ function recordOutboundLink(link, category, action) {
                         $isReload.val(1);
         }
 
-                $('.jsShowOtherItem').on('click', function() {
+        $('.jsShowCondition').on('click', function() {
             $('.jsDefaultHide').show();
             $(this).hide();
+        });
+        $('.jsShowCondition').on('click', function() {
+            $('.jsHideWhenShowCondition').hide();
+            $('.jsShowWhenShowCondition').show();
+            $('.jsJobCountWrapper').addClass('mt-10');
+            $('.jsJobCountTitle').text('この条件の求人数');
         });
     });
 }();
@@ -6715,8 +6526,16 @@ $(function(){
     "@type": "ListItem",
     "position": 2,
     "item": {
-        "@id": "https://www.vorkers.com/job_search_result",
+        "@id": "/job_search_result?u=std",
         "name": "求人トップ"
+    }
+}
+,                            {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+        "@id": "https://www.vorkers.com/job_search_result",
+        "name": "求人情報"
     }
 }
                     ]
@@ -6864,7 +6683,7 @@ class BS4Parse():
     def parseOneElement(self,tagName):
         trans_list = []
         for single_tag in self.soup.select(tagName):
-            trans_list.append("".join(single_tag.text.split()))
+            trans_list.append(" ".join(single_tag.text.split()))
         tagText = " ".join(trans_list)
         return tagText,trans_list
 

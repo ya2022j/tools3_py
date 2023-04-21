@@ -6852,7 +6852,10 @@ $(function(){
 
 """
 
-
+def writeinto_txtfile(filename, data):
+    with open(filename, "a", newline="", encoding="utf-8") as f:
+        f.write(data)
+        f.write("\n")
 
 class BS4Parse():
     def __init__(self,html_doc):
@@ -6869,9 +6872,41 @@ class BS4Parse():
         AllText = "".join(self.soup.get_text().split())
         return AllText
 
-b = BS4Parse(html_doc)
-_,ret = b.parseOneElement("article")
-for item in ret:
-    print(item)
+# Truncating strings for readable output
+def truncate_string_for_readed(text):
+    ret_list = []
+
+    len_text = len(text)
+    base_text_num = 88
+    integer,remainder = divmod(len_text,base_text_num)
+    # 整数,处理
+    ret_list.append(text[0:base_text_num])
+    for item in range(1,integer):
+        ret_list.append(text[base_text_num*item:base_text_num*(item+1)])
+    # 余数处理 - ok
+    ret_list.append(text[integer*base_text_num:])
+
+    return ret_list
+def for_count_and_read(countfile,readfile,text):
+
+    # for count
+    writeinto_txtfile(countfile, text)
+
+    # for read
+
+    ret_list = truncate_string_for_readed(text)
+    for item in ret_list:
+        writeinto_txtfile(readfile,item)
+        writeinto_txtfile(readfile,"\t")
 
 
+
+
+if __name__ == "__main__":
+    infoID= 0
+    b = BS4Parse(html_doc)
+    _, ret = b.parseOneElement("article")
+    for item in ret:
+        infoID += 1
+        f_text = str(infoID) + ". " + item
+        for_count_and_read("count.tsv", "read.tsv", f_text)

@@ -32,7 +32,7 @@ def rsa_encrypt(rsa_n, rsa_e, message):
 
 def main(argv):
     """
-    python3 ab_test.py -r 10000 -c 10 -a http:127.0.0.1
+    python3 rsa_word.py -r helloword
     :param argv:
     :return:
     """

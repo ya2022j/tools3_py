@@ -1,10 +1,8 @@
 #! coding:utf-8
 
 
-
 import requests
 from bs4 import BeautifulSoup
-
 
 # 大一些文本直接用三个双引号来处理
 html_doc = """
@@ -48,7 +46,7 @@ html_doc = """
             <meta name="robots" content="noindex">
         <link rel="canonical" href="https://www.vorkers.com/job_search_result?u=std">
                     <link rel="next" href="/job_search_result?kt=Golang&amp;u=std&amp;page=2">
-    
+
 <!--[if lt IE 9]>
 <script>for(i in s="article,aside,canvas,details,datalist,figcaption,figure,footer,header,keygen,main,nav,section,summary,time".split(','))document.createElement(s[i]);</script>
 <![endif]-->
@@ -76,7 +74,7 @@ html_doc = """
                                                     <p id="siteLogo">
         <a id="siteLogoLink" href="/" class="d-ib">
                             <img width="110" height="19" src="https://assets.vorkers.com/images/common/logo_header.svg?01" alt="OpenWork">
-                        
+
         </a>
     </p>
 
@@ -89,7 +87,7 @@ html_doc = """
                                             <a href="/company_list?field=&amp;pref=&amp;src_str=&amp;sort=1" class="searchChangeTrigger white d-b">社員クチコミ・年収を探す</a>
                                         </li>
                                                                     </ul>
-                            
+
                                                                                             <ul id="headerPersonal">
         <li class="headerPersonal_item"><a data-_vmodal-type="m" href="javascript:void(0);" class="jsLoginModalTrigger button-header"><span class="headerPersonal_icon pcIcon pcIcon-79 pcIcon-buttonHeader-message">メッセージ</span></a></li><li class="headerPersonal_item ml-5"><a data-_vmodal-type="bj" href="javascript:void(0);" class="jsLoginModalTrigger button-header"><span class="headerPersonal_icon pcIcon pcIcon-69 pcIcon-buttonHeader-favorite">気になる</span></a></li>    </ul>
 
@@ -105,9 +103,9 @@ html_doc = """
     </div>
 </div>
                             </header>
-                                                
+
                                 <main>
-                        
+
     <div class="o-h backgroundLightGray pt-10">
                 <header id="contentsHeader" class="w-1000 center mb-15">
                             <ol id="topicPath">
@@ -266,12 +264,12 @@ html_doc = """
                     </form>
                                     </header>
 
-                        
+
 <div class="sortTabWrapper-jobList"><ul class="sortTab-jobList fs-14"><li class="sortTab-jobList_item"><a href="/job_search_result?kt=Golang&amp;u=std&amp;page=1" class="sortTab-jobList_link sortTab-jobList_link-current">希望条件</a></li><li class="sortTab-jobList_item"><a href="/job_search_result?kt=Golang&amp;u=new&amp;page=1" class="sortTab-jobList_link">新着</a></li><li class="sortTab-jobList_item"><a href="/job_search_result?kt=Golang&amp;u=total&amp;page=1" class="sortTab-jobList_link">ランキング</a></li></ul></div>
                         </div>
             <div id="contents">                                    <div class="o-h">            <div class="mt-10 o-h">
                                                                 </div>
-                                
+
 <article class="break-word borderGray mt-20">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -380,7 +378,7 @@ html_doc = """
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -478,7 +476,7 @@ PM・UXとチームを組み、プロダクト開発を行っていただきま�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -580,7 +578,7 @@ o The engineer will be expected to create, track, report and execute test cases,
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -675,7 +673,7 @@ o The engineer will be expected to create, track, report and execute test cases,
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -771,7 +769,7 @@ o The engineer will be expected to create, track, report and execute test cases,
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -879,7 +877,7 @@ PKSHA Technologyでは、多岐に渡る大手企業に、自然言語処理・�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -988,7 +986,7 @@ PKSHA Technologyでは、多岐に渡る大手企業に、自然言語処理・�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -1097,7 +1095,7 @@ PKSHA Technologyでは、多岐に渡る大手企業に、自然言語処理・�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -1204,7 +1202,7 @@ PKSHA Technologyでは、多岐に渡る大手企業に、自然言語処理・�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -1303,7 +1301,7 @@ PKSHA Technologyでは、多岐に渡る大手企業に、自然言語処理・�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -1395,7 +1393,7 @@ PKSHA Technologyでは、多岐に渡る大手企業に、自然言語処理・�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -1488,7 +1486,7 @@ PKSHA Technologyでは、多岐に渡る大手企業に、自然言語処理・�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -1579,7 +1577,7 @@ PKSHA Technologyでは、多岐に渡る大手企業に、自然言語処理・�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -1673,7 +1671,7 @@ PKSHA Technologyでは、多岐に渡る大手企業に、自然言語処理・�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -1784,7 +1782,7 @@ PKSHA Technologyでは、多岐に渡る大手企業に、自然言語処理・�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -1895,7 +1893,7 @@ PKSHA Technologyでは、多岐に渡る大手企業に、自然言語処理・�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -2006,7 +2004,7 @@ PKSHA Technologyでは、多岐に渡る大手企業に、自然言語処理・�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -2104,7 +2102,7 @@ PM・UXとチームを組み、プロダクト開発を行っていただきま�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -2203,7 +2201,7 @@ DB ：MySQL、PostgreSQL
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -2299,7 +2297,7 @@ DB ：MySQL、PostgreSQL
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -2407,7 +2405,7 @@ PKSHA Technologyは、エンタープライズ企業のコールセンターに�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -2515,7 +2513,7 @@ PKSHA Technologyは、エンタープライズ企業のコールセンターに�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -2623,7 +2621,7 @@ PKSHA Technologyは、エンタープライズ企業のコールセンターに�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -2731,7 +2729,7 @@ PKSHA Technologyは、エンタープライズ企業のコールセンターに�
         </ul>
     </div>
 </article>
-                    
+
 <article class="break-word borderGray mt-50">
         <div class="jobListHeader jobListHeader-jobSearch o-h">
     <div class="o-h">
@@ -2870,7 +2868,7 @@ MaaS領域におけるアルゴリズムの社会実装に向けてIoT機器の�
     <a href="#top" class="jsGoTopLink">▲ このページのTOPへ</a>
 </div>
             </div>        </main>
-        
+
                 <footer id="footer">
     <a class="footer_siteLogoLink" href="/">
         <img class="d-b" width="140" height="22" src="https://assets.vorkers.com/images/common/logo_with_icon.svg?01" alt="OpenWork">
@@ -5917,7 +5915,7 @@ MaaS領域におけるアルゴリズムの社会実装に向けてIoT機器の�
 <a href="javascript:void(0)" class="modalWindowCloseButton jsModalWindowCloseButton jsModalWindowClose d-n">×</a><div class="modalWindowBackground jsModalWindowBackground d-n"></div><div class="modalWindowWrapper jsModalWindowWrapper d-n"></div>
     </div>
 
-        
+
         <script src="https://assets.vorkers.com/assets/4689.e71e3e28.js"></script><script src="https://assets.vorkers.com/assets/5074.ce6b1b5b.js"></script><script src="https://assets.vorkers.com/assets/2252.5f78b359.js"></script><script src="https://assets.vorkers.com/assets/9892.36565870.js"></script><script src="https://assets.vorkers.com/assets/web-com-common_pc-entry.js.1dca036f.js"></script>
 <script src="https://assets.vorkers.com/assets/vue.a6d2a516.js"></script><script src="https://assets.vorkers.com/assets/3670.27288580.js"></script><script src="https://assets.vorkers.com/assets/com-pc-entry.js.a4047f40.js"></script>
     <script>
@@ -6056,11 +6054,11 @@ $(function(){
         $keywordSearchInput.on('keydown.vSearchForm', function(e) {
         if ($keywordSearchInput.val() !== '') {             return;
         }
-        
+
         var key = e.keyCode;
         if (key !== 38 && key !== 40) {             return;
         }
-        
+
         var $uiMenuItem = $('.ui-menu-item');
         var $uiStateFocus = $('.ui-state-focus');
                 if (key === 38) {
@@ -6198,7 +6196,7 @@ function recordOutboundLink(link, category, action) {
         );
         locationModalMgr.runCallback();
 
-    
+
                 var industryId = 'i';
         var fieldId = 'f';
         fieldModalMgr.init(
@@ -6226,11 +6224,11 @@ function recordOutboundLink(link, category, action) {
             var $remainingHiddenJobs = $hiddenJobs.filter(':hidden');             if ($remainingHiddenJobs.length < maxNextRankingJobs) {                 $this.find('.jsNextJobsCount').text($remainingHiddenJobs.length);
             }
         });
-        
+
                 var jobCountUrl = "https://www.vorkers.com/job_search/api/rankingCount";
         var jobCountFetcher = new _v.jui.JobCountFetcher();
         jobCountFetcher.init(jobCountUrl, $('#jsConditionForm'), 'jsJobCount');
-        
+
                 var $isReload = $('#jsIsBackForwardForJobSearch');
         if ($isReload.val()) {
                         occupationModalMgr.runCallback();
@@ -6497,7 +6495,7 @@ $(function(){
 
         return removeCount;
     };
-    
+
         BookmarkOfJobOfferActionFacade.prototype._previewBookmark = function(bookmarkPreviews) {
         if (!_v.bookmark.bookmarkPreview) {
             return;
@@ -6619,7 +6617,7 @@ $(function(){
         conversionTracker.registListener();
     });
 </script>
-                        
+
 <script type="text/javascript">
     var td = new Treasure({
         host: 'in.treasuredata.com',
@@ -6671,25 +6669,47 @@ $(function(){
 
 """
 
+
 def writeinto_txtfile(filename, data):
     with open(filename, "a", newline="", encoding="utf-8") as f:
         f.write(data)
         f.write("\n")
 
+
 class BS4Parse():
-    def __init__(self,html_doc):
+    def __init__(self, html_doc):
         self.soup = BeautifulSoup(html_doc, 'html.parser')
 
-    def parseOneElement(self,tagName):
+    def parseOneElement(self, tagName):
         trans_list = []
         for single_tag in self.soup.select(tagName):
             trans_list.append(" ".join(single_tag.text.split()))
         tagText = " ".join(trans_list)
-        return tagText,trans_list
+        return tagText, trans_list
+    def parseClassAttribute(self,outsidetag,classAttribute):
+        trans_list = []
+        ret = self.soup.findAll(name=outsidetag, attrs={"class":classAttribute})
+
+        for item in ret:
+            trans_list.append("".join(item.text))
+        tagText = " ".join(trans_list)
+        return tagText, trans_list
+
+
+    def parseIDAttribute(self,DAttribute):
+        trans_list = []
+        ret = self.soup.findAll(id=DAttribute)
+
+        for item in ret:
+            trans_list.append("".join(item.text))
+        tagText = " ".join(trans_list)
+        return tagText, trans_list
+
 
     def fetchAllText(self):
         AllText = "".join(self.soup.get_text().split())
         return AllText
+
 
 # Truncating strings for readable output
 def truncate_string_for_readed(text):
@@ -6697,17 +6717,18 @@ def truncate_string_for_readed(text):
 
     len_text = len(text)
     base_text_num = 88
-    integer,remainder = divmod(len_text,base_text_num)
+    integer, remainder = divmod(len_text, base_text_num)
     # 整数,处理
     ret_list.append(text[0:base_text_num])
-    for item in range(1,integer):
-        ret_list.append(text[base_text_num*item:base_text_num*(item+1)])
+    for item in range(1, integer):
+        ret_list.append(text[base_text_num * item:base_text_num * (item + 1)])
     # 余数处理 - ok
-    ret_list.append(text[integer*base_text_num:])
+    ret_list.append(text[integer * base_text_num:])
 
     return ret_list
-def for_count_and_read(countfile,readfile,text):
 
+
+def for_count_and_read(countfile, readfile, text):
     # for count
     writeinto_txtfile(countfile, text)
 
@@ -6715,15 +6736,15 @@ def for_count_and_read(countfile,readfile,text):
 
     ret_list = truncate_string_for_readed(text)
     for item in ret_list:
-        writeinto_txtfile(readfile,item)
-        writeinto_txtfile(readfile,"\t")
-
+        writeinto_txtfile(readfile, item)
+        writeinto_txtfile(readfile, "\t")
 
 
 def writeinto_htmlfile(filename, data):
     with open(filename, "a", newline="", encoding="utf-8") as f:
         f.write(data)
         f.write("\n")
+
 
 html_head = """
 <html>
@@ -6771,14 +6792,20 @@ html_footer = """
 </html>
 """
 if __name__ == "__main__":
-    infoID= 0
+    infoID = 0
+    soup = BeautifulSoup(html_doc, 'html.parser')
+    # ret = soup.findAll(name="a", attrs={"class" :"searchChangeTrigger white d-b"})
+    # print(ret)
     b = BS4Parse(html_doc)
-    _, ret = b.parseOneElement("article")
-    for item in ret:
-        infoID += 1
-        f_text = str(infoID) + ". " + item
-        writeinto_htmlfile("test.html",html_head)
-        writeinto_htmlfile("test.html",html_body.format(f_text))
-        writeinto_htmlfile("test.html",html_footer)
+    ret,_ = b.parseIDAttribute("footerMenu")
 
-        # for_count_and_read("count.tsv", "read.tsv", f_text)
+
+    # for item in ret:
+    #     print(item)
+    #     infoID += 1
+    #     f_text = str(infoID) + ". " + item
+    #     writeinto_htmlfile("test.html", html_head)
+    #     writeinto_htmlfile("test.html", html_body.format(f_text))
+    #     writeinto_htmlfile("test.html", html_footer)
+    #
+    #     for_count_and_read("count.tsv", "read.tsv", f_text)

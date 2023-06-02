@@ -68,15 +68,15 @@ def fetch_dt_output_tsv(dbname,tablename):
             sql_fetch_dt = "select {0},{1},{2},{3} from {4} where id ={5}; ".format(url_field,stack_type_field,title_field,content_field,tablename,num)
             cur.execute(sql_fetch_dt)
             dt_ret = cur.fetchone()
-
+            writeintoTSV_file(tsvfile, ["="*128])
             writeintoTSV_file(tsvfile, [str(dt_ret[url_field]) + " "+ str(dt_ret[stack_type_field])])
             writeintoTSV_file(tsvfile, [str(dt_ret[title_field])])
-
+            writeintoTSV_file(tsvfile, ["="*128])
             for one_content in truncate_string_for_readed(cleanup_content(str(dt_ret[content_field]))):
                 writeintoTSV_file(tsvfile, [one_content])
             print("output ok")
     except:
-        pass 
+        pass
 
 
 

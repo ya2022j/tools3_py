@@ -17,7 +17,7 @@ class MyClass:
 
 # 测试类
 class TestMyClass(unittest.TestCase):
-    @patch('__main__.MyClass')
+    @patch('__main__.MyClass', autospec=True)
     def test_some_method(self, mock_class):
         # 创建模拟实例
         mock_instance = mock_class.return_value
